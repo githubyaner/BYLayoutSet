@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BYDocumentListVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7s8-e5-xO0">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="jdp-XJ-Mg6"/>
+                    </constraints>
+                    <state key="normal" title="doc">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readDOC:" destination="-1" eventType="touchUpInside" id="TBp-qP-Azo"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AND-P8-J9X">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="wUg-Ux-KnL"/>
+                    </constraints>
+                    <state key="normal" title="docx">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readDOCX:" destination="-1" eventType="touchUpInside" id="yNO-Wo-PWL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgs-O2-lzc">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="PDU-WT-OZA"/>
+                    </constraints>
+                    <state key="normal" title="pptx">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readPPT:" destination="-1" eventType="touchUpInside" id="tjO-kM-gSO"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slR-j4-Jdk">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="byR-xF-qfD"/>
+                    </constraints>
+                    <state key="normal" title="pdf">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readPDF:" destination="-1" eventType="touchUpInside" id="q6Z-hW-4Fl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sq4-oV-AYp">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="tj9-Zm-otd"/>
+                    </constraints>
+                    <state key="normal" title="xlsx">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readXLS:" destination="-1" eventType="touchUpInside" id="Rn2-mY-S9O"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWG-kd-Wdq">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8UC-h5-3Xv"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="AzC-v9-uJH"/>
+                    </constraints>
+                    <state key="normal" title="html">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readHTML:" destination="-1" eventType="touchUpInside" id="Uaf-yb-teq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2l-xl-B56">
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="5il-O8-sih"/>
+                        <constraint firstAttribute="height" constant="30" id="yzW-Zm-hQn"/>
+                    </constraints>
+                    <state key="normal" title="url">
+                        <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="readURL:" destination="-1" eventType="touchUpInside" id="g8r-Zm-fSe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="AND-P8-J9X" firstAttribute="top" secondItem="7s8-e5-xO0" secondAttribute="bottom" constant="15" id="0Wp-kd-nGm"/>
+                <constraint firstAttribute="trailing" secondItem="7s8-e5-xO0" secondAttribute="trailing" constant="40" id="48l-ZU-bBI"/>
+                <constraint firstAttribute="trailing" secondItem="AND-P8-J9X" secondAttribute="trailing" constant="40" id="69P-dh-rP9"/>
+                <constraint firstItem="A2l-xl-B56" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="8rL-HO-6f8"/>
+                <constraint firstItem="IWG-kd-Wdq" firstAttribute="top" secondItem="Sq4-oV-AYp" secondAttribute="bottom" constant="15" id="94O-9Y-lmM"/>
+                <constraint firstItem="Sq4-oV-AYp" firstAttribute="top" secondItem="slR-j4-Jdk" secondAttribute="bottom" constant="15" id="GwD-M6-H3U"/>
+                <constraint firstAttribute="trailing" secondItem="slR-j4-Jdk" secondAttribute="trailing" constant="40" id="IDk-ha-csi"/>
+                <constraint firstAttribute="trailing" secondItem="IWG-kd-Wdq" secondAttribute="trailing" constant="40" id="IIb-UW-2gD"/>
+                <constraint firstItem="A2l-xl-B56" firstAttribute="top" secondItem="IWG-kd-Wdq" secondAttribute="bottom" constant="15" id="KPy-0U-BGu"/>
+                <constraint firstItem="7s8-e5-xO0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="L1A-wn-jfV"/>
+                <constraint firstAttribute="trailing" secondItem="Mgs-O2-lzc" secondAttribute="trailing" constant="40" id="Or2-iq-GXY"/>
+                <constraint firstItem="Mgs-O2-lzc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="SOY-Jk-Ivc"/>
+                <constraint firstItem="slR-j4-Jdk" firstAttribute="top" secondItem="Mgs-O2-lzc" secondAttribute="bottom" constant="15" id="U38-hU-eOu"/>
+                <constraint firstItem="IWG-kd-Wdq" firstAttribute="top" secondItem="Sq4-oV-AYp" secondAttribute="bottom" constant="15" id="YJg-X7-5Zd"/>
+                <constraint firstItem="AND-P8-J9X" firstAttribute="top" secondItem="7s8-e5-xO0" secondAttribute="bottom" constant="15" id="Yud-v0-ZPO"/>
+                <constraint firstItem="Sq4-oV-AYp" firstAttribute="top" secondItem="slR-j4-Jdk" secondAttribute="bottom" constant="15" id="ZRB-uG-JtB"/>
+                <constraint firstItem="Mgs-O2-lzc" firstAttribute="top" secondItem="AND-P8-J9X" secondAttribute="bottom" constant="15" id="a2B-Q1-Yp7"/>
+                <constraint firstItem="slR-j4-Jdk" firstAttribute="top" secondItem="Mgs-O2-lzc" secondAttribute="bottom" constant="15" id="cSc-R1-aF6"/>
+                <constraint firstItem="Mgs-O2-lzc" firstAttribute="top" secondItem="AND-P8-J9X" secondAttribute="bottom" constant="15" id="g20-zw-sDD"/>
+                <constraint firstItem="Sq4-oV-AYp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="iRd-VH-nFB"/>
+                <constraint firstItem="AND-P8-J9X" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="jmV-gk-Dwx"/>
+                <constraint firstAttribute="trailing" secondItem="A2l-xl-B56" secondAttribute="trailing" constant="40" id="q1K-Ci-tnD"/>
+                <constraint firstItem="7s8-e5-xO0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="q8z-Mp-c6m"/>
+                <constraint firstItem="slR-j4-Jdk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="s2i-Ro-J3n"/>
+                <constraint firstItem="IWG-kd-Wdq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="vfV-o7-zQh"/>
+                <constraint firstAttribute="trailing" secondItem="Sq4-oV-AYp" secondAttribute="trailing" constant="40" id="z7J-bq-JUP"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>
