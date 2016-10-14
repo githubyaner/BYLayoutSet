@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "BYScrollTableView.h"
-#import <JavaScriptCore/JavaScriptCore.h>
 
 #import "BYWebViewController.h"
 #import "BYRefreshTopViewVC.h"
