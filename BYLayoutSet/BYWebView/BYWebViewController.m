@@ -99,6 +99,9 @@
     if (BYVCTYPE_DISMISS == self.type) {
         self.goBackBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"return_down"]  style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];;
         self.navigationItem.leftBarButtonItems = @[_goBackBtn];
+    } else {
+        self.goBackBtn = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"return"]  style:UIBarButtonItemStylePlain target:self action:@selector(goBack)];;
+        self.navigationItem.leftBarButtonItems = @[_goBackBtn];
     }
 }
 

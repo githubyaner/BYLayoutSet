@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7327F7B31DB75F32006F3AE4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7327F7AA1DB75F32006F3AE4 /* Info.plist */; };
+		7327F7B41DB75F32006F3AE4 /* MTreeNode+ExpandNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7AD1DB75F32006F3AE4 /* MTreeNode+ExpandNode.m */; };
+		7327F7B51DB75F32006F3AE4 /* MTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7AF1DB75F32006F3AE4 /* MTreeNode.m */; };
+		7327F7B61DB75F32006F3AE4 /* MTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7B11DB75F32006F3AE4 /* MTreeView.m */; };
+		7327F7BA1DB76078006F3AE4 /* BYTreeTableViewListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7B81DB76078006F3AE4 /* BYTreeTableViewListVC.m */; };
+		7327F7BB1DB76078006F3AE4 /* BYTreeTableViewListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7327F7B91DB76078006F3AE4 /* BYTreeTableViewListVC.xib */; };
+		7327F7BE1DB76A5F006F3AE4 /* BYTempWebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7BD1DB76A5F006F3AE4 /* BYTempWebVC.m */; };
+		7327F7C11DB76FC6006F3AE4 /* BYTreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7C01DB76FC6006F3AE4 /* BYTreeTableViewController.m */; };
+		7327F7C41DB77167006F3AE4 /* BYMultistageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7C31DB77167006F3AE4 /* BYMultistageVC.m */; };
+		7327F7CA1DB771D1006F3AE4 /* BYFileTreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7C91DB771D1006F3AE4 /* BYFileTreeVC.m */; };
+		7327F7CD1DB771E6006F3AE4 /* BYQQTreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7CC1DB771E6006F3AE4 /* BYQQTreeVC.m */; };
+		7327F7D41DB77ECD006F3AE4 /* BYQQTreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7327F7D21DB77ECD006F3AE4 /* BYQQTreeCell.m */; };
 		734BEE361DAF9760005532A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEE351DAF9760005532A1 /* main.m */; };
 		734BEE391DAF9760005532A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEE381DAF9760005532A1 /* AppDelegate.m */; };
 		734BEE3C1DAF9760005532A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEE3B1DAF9760005532A1 /* ViewController.m */; };
@@ -69,6 +81,108 @@
 		734BEF0C1DAF97FB005532A1 /* BYScrollTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED31DAF97FB005532A1 /* BYScrollTableView.m */; };
 		734BEF0D1DAF97FB005532A1 /* BYScrollTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED51DAF97FB005532A1 /* BYScrollTableViewVC.m */; };
 		734BEF0E1DAF97FB005532A1 /* BYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED91DAF97FB005532A1 /* BYWebViewController.m */; };
+		735CD3171DB60C4C0072A519 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 735CD2C11DB60C4C0072A519 /* Info.plist */; };
+		735CD3181DB60C4C0072A519 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2C51DB60C4C0072A519 /* XLFormBaseCell.m */; };
+		735CD3191DB60C4C0072A519 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2C71DB60C4C0072A519 /* XLFormButtonCell.m */; };
+		735CD31A1DB60C4C0072A519 /* XLFormCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2C91DB60C4C0072A519 /* XLFormCheckCell.m */; };
+		735CD31B1DB60C4C0072A519 /* XLFormDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2CB1DB60C4C0072A519 /* XLFormDateCell.m */; };
+		735CD31C1DB60C4C0072A519 /* XLFormDatePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2CD1DB60C4C0072A519 /* XLFormDatePickerCell.m */; };
+		735CD31D1DB60C4C0072A519 /* XLFormImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2D01DB60C4C0072A519 /* XLFormImageCell.m */; };
+		735CD31E1DB60C4C0072A519 /* XLFormInlineSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2D31DB60C4C0072A519 /* XLFormInlineSelectorCell.m */; };
+		735CD31F1DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2D51DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m */; };
+		735CD3201DB60C4C0072A519 /* XLFormPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2D71DB60C4C0072A519 /* XLFormPickerCell.m */; };
+		735CD3211DB60C4C0072A519 /* XLFormSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2D91DB60C4C0072A519 /* XLFormSegmentedCell.m */; };
+		735CD3221DB60C4C0072A519 /* XLFormSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2DB1DB60C4C0072A519 /* XLFormSelectorCell.m */; };
+		735CD3231DB60C4C0072A519 /* XLFormSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2DD1DB60C4C0072A519 /* XLFormSliderCell.m */; };
+		735CD3241DB60C4C0072A519 /* XLFormStepCounterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2DF1DB60C4C0072A519 /* XLFormStepCounterCell.m */; };
+		735CD3251DB60C4C0072A519 /* XLFormSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2E11DB60C4C0072A519 /* XLFormSwitchCell.m */; };
+		735CD3261DB60C4C0072A519 /* XLFormTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2E31DB60C4C0072A519 /* XLFormTextFieldCell.m */; };
+		735CD3271DB60C4C0072A519 /* XLFormTextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2E51DB60C4C0072A519 /* XLFormTextViewCell.m */; };
+		735CD3281DB60C4C0072A519 /* XLFormOptionsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2E81DB60C4C0072A519 /* XLFormOptionsObject.m */; };
+		735CD3291DB60C4C0072A519 /* XLFormOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2EA1DB60C4C0072A519 /* XLFormOptionsViewController.m */; };
+		735CD32A1DB60C4C0072A519 /* XLFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2ED1DB60C4C0072A519 /* XLFormViewController.m */; };
+		735CD32B1DB60C4C0072A519 /* XLFormDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2F01DB60C4C0072A519 /* XLFormDescriptor.m */; };
+		735CD32C1DB60C4C0072A519 /* XLFormRowDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2F31DB60C4C0072A519 /* XLFormRowDescriptor.m */; };
+		735CD32D1DB60C4C0072A519 /* XLFormSectionDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2F51DB60C4C0072A519 /* XLFormSectionDescriptor.m */; };
+		735CD32E1DB60C4C0072A519 /* NSArray+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2F81DB60C4C0072A519 /* NSArray+XLFormAdditions.m */; };
+		735CD32F1DB60C4C0072A519 /* NSExpression+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2FA1DB60C4C0072A519 /* NSExpression+XLFormAdditions.m */; };
+		735CD3301DB60C4C0072A519 /* NSObject+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2FC1DB60C4C0072A519 /* NSObject+XLFormAdditions.m */; };
+		735CD3311DB60C4C0072A519 /* NSPredicate+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2FE1DB60C4C0072A519 /* NSPredicate+XLFormAdditions.m */; };
+		735CD3321DB60C4C0072A519 /* NSString+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3001DB60C4C0072A519 /* NSString+XLFormAdditions.m */; };
+		735CD3331DB60C4C0072A519 /* UIView+XLFormAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3021DB60C4C0072A519 /* UIView+XLFormAdditions.m */; };
+		735CD3341DB60C4C0072A519 /* XLFormRightDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3051DB60C4C0072A519 /* XLFormRightDetailCell.m */; };
+		735CD3351DB60C4C0072A519 /* XLFormRightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3071DB60C4C0072A519 /* XLFormRightImageButton.m */; };
+		735CD3361DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3091DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m */; };
+		735CD3371DB60C4C0072A519 /* XLFormTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD30B1DB60C4C0072A519 /* XLFormTextView.m */; };
+		735CD3381DB60C4C0072A519 /* XLFormRegexValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD30E1DB60C4C0072A519 /* XLFormRegexValidator.m */; };
+		735CD3391DB60C4C0072A519 /* XLFormValidationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3101DB60C4C0072A519 /* XLFormValidationStatus.m */; };
+		735CD33A1DB60C4C0072A519 /* XLFormValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3121DB60C4C0072A519 /* XLFormValidator.m */; };
+		735CD33B1DB60C4C0072A519 /* XLForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3151DB60C4C0072A519 /* XLForm.m */; };
+		735CD33C1DB60C4C0072A519 /* XLForm.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 735CD3161DB60C4C0072A519 /* XLForm.bundle */; };
+		735CD33F1DB60CF60072A519 /* BYFormVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD33E1DB60CF60072A519 /* BYFormVC.m */; };
+		735CD3BB1DB622EF0072A519 /* DOAutocompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3421DB622EE0072A519 /* DOAutocompleteTextField.m */; };
+		735CD3BC1DB622EF0072A519 /* NSMutableArray+IMSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3441DB622EE0072A519 /* NSMutableArray+IMSExtensions.m */; };
+		735CD3BD1DB622EF0072A519 /* NSMutableArray+MoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3461DB622EE0072A519 /* NSMutableArray+MoveObject.m */; };
+		735CD3BE1DB622EF0072A519 /* QAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3481DB622EE0072A519 /* QAppearance.m */; };
+		735CD3BF1DB622EF0072A519 /* QAutoEntryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD34A1DB622EE0072A519 /* QAutoEntryElement.m */; };
+		735CD3C01DB622EF0072A519 /* QAutoEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD34C1DB622EE0072A519 /* QAutoEntryTableViewCell.m */; };
+		735CD3C11DB622EF0072A519 /* QBadgeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD34E1DB622EE0072A519 /* QBadgeElement.m */; };
+		735CD3C21DB622EF0072A519 /* QBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3501DB622EE0072A519 /* QBadgeLabel.m */; };
+		735CD3C31DB622EF0072A519 /* QBadgeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3521DB622EE0072A519 /* QBadgeTableCell.m */; };
+		735CD3C41DB622EF0072A519 /* QBindingEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3541DB622EE0072A519 /* QBindingEvaluator.m */; };
+		735CD3C51DB622EF0072A519 /* QBooleanElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3561DB622EE0072A519 /* QBooleanElement.m */; };
+		735CD3C61DB622EF0072A519 /* QButtonElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3581DB622EE0072A519 /* QButtonElement.m */; };
+		735CD3C71DB622EF0072A519 /* QClassicAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD35A1DB622EE0072A519 /* QClassicAppearance.m */; };
+		735CD3C81DB622EF0072A519 /* QCountdownElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD35C1DB622EE0072A519 /* QCountdownElement.m */; };
+		735CD3C91DB622EF0072A519 /* QDateEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD35E1DB622EE0072A519 /* QDateEntryTableViewCell.m */; };
+		735CD3CA1DB622EF0072A519 /* QDateInlineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3601DB622EE0072A519 /* QDateInlineTableViewCell.m */; };
+		735CD3CB1DB622EF0072A519 /* QDateTimeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3621DB622EE0072A519 /* QDateTimeElement.m */; };
+		735CD3CC1DB622EF0072A519 /* QDateTimeInlineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3641DB622EE0072A519 /* QDateTimeInlineElement.m */; };
+		735CD3CD1DB622EF0072A519 /* QDecimalElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3661DB622EE0072A519 /* QDecimalElement.m */; };
+		735CD3CE1DB622EF0072A519 /* QDecimalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3681DB622EE0072A519 /* QDecimalTableViewCell.m */; };
+		735CD3CF1DB622EF0072A519 /* QDynamicDataSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD36A1DB622EE0072A519 /* QDynamicDataSection.m */; };
+		735CD3D01DB622EF0072A519 /* QElement+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD36C1DB622EE0072A519 /* QElement+Appearance.m */; };
+		735CD3D11DB622EF0072A519 /* QElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD36E1DB622EE0072A519 /* QElement.m */; };
+		735CD3D21DB622EF0072A519 /* QEmptyListElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3701DB622EE0072A519 /* QEmptyListElement.m */; };
+		735CD3D31DB622EF0072A519 /* QEntryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3721DB622EE0072A519 /* QEntryElement.m */; };
+		735CD3D41DB622EF0072A519 /* QEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3741DB622EE0072A519 /* QEntryTableViewCell.m */; };
+		735CD3D51DB622EF0072A519 /* QFlatAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3761DB622EE0072A519 /* QFlatAppearance.m */; };
+		735CD3D61DB622EF0072A519 /* QFloatElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3781DB622EE0072A519 /* QFloatElement.m */; };
+		735CD3D71DB622EF0072A519 /* QFloatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD37A1DB622EE0072A519 /* QFloatTableViewCell.m */; };
+		735CD3D81DB622EF0072A519 /* QImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD37C1DB622EE0072A519 /* QImageElement.m */; };
+		735CD3D91DB622EF0072A519 /* QImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD37E1DB622EE0072A519 /* QImageTableViewCell.m */; };
+		735CD3DA1DB622EF0072A519 /* QLabelElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3801DB622EE0072A519 /* QLabelElement.m */; };
+		735CD3DB1DB622EF0072A519 /* QLoadingElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3821DB622EE0072A519 /* QLoadingElement.m */; };
+		735CD3DC1DB622EF0072A519 /* QMultilineElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3841DB622EE0072A519 /* QMultilineElement.m */; };
+		735CD3DD1DB622EF0072A519 /* QMultilineTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3861DB622EE0072A519 /* QMultilineTextViewController.m */; };
+		735CD3DE1DB622EF0072A519 /* QProgressElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3881DB622EE0072A519 /* QProgressElement.m */; };
+		735CD3DF1DB622EF0072A519 /* QRadioElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD38A1DB622EE0072A519 /* QRadioElement.m */; };
+		735CD3E01DB622EF0072A519 /* QRadioItemElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD38C1DB622EE0072A519 /* QRadioItemElement.m */; };
+		735CD3E11DB622EF0072A519 /* QRadioSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD38E1DB622EE0072A519 /* QRadioSection.m */; };
+		735CD3E21DB622EF0072A519 /* QRootBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3901DB622EE0072A519 /* QRootBuilder.m */; };
+		735CD3E31DB622EF0072A519 /* QRootElement+JsonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3921DB622EE0072A519 /* QRootElement+JsonBuilder.m */; };
+		735CD3E41DB622EF0072A519 /* QRootElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3941DB622EE0072A519 /* QRootElement.m */; };
+		735CD3E51DB622EF0072A519 /* QSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3961DB622EE0072A519 /* QSection.m */; };
+		735CD3E61DB622EF0072A519 /* QSegmentedElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3981DB622EE0072A519 /* QSegmentedElement.m */; };
+		735CD3E71DB622EF0072A519 /* QSelectItemElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD39A1DB622EE0072A519 /* QSelectItemElement.m */; };
+		735CD3E81DB622EF0072A519 /* QSelectSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD39C1DB622EE0072A519 /* QSelectSection.m */; };
+		735CD3E91DB622EF0072A519 /* QSortingSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD39E1DB622EF0072A519 /* QSortingSection.m */; };
+		735CD3EA1DB622EF0072A519 /* QTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3A01DB622EF0072A519 /* QTableViewCell.m */; };
+		735CD3EB1DB622EF0072A519 /* QTextElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3A21DB622EF0072A519 /* QTextElement.m */; };
+		735CD3EC1DB622EF0072A519 /* QTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3A41DB622EF0072A519 /* QTextField.m */; };
+		735CD3ED1DB622EF0072A519 /* QuickDialogController+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3A71DB622EF0072A519 /* QuickDialogController+Animations.m */; };
+		735CD3EE1DB622EF0072A519 /* QuickDialogController+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3A91DB622EF0072A519 /* QuickDialogController+Helpers.m */; };
+		735CD3EF1DB622EF0072A519 /* QuickDialogController+Loading.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3AB1DB622EF0072A519 /* QuickDialogController+Loading.m */; };
+		735CD3F01DB622EF0072A519 /* QuickDialogController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3AD1DB622EF0072A519 /* QuickDialogController+Navigation.m */; };
+		735CD3F11DB622EF0072A519 /* QuickDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3AF1DB622EF0072A519 /* QuickDialogController.m */; };
+		735CD3F21DB622EF0072A519 /* QuickDialogDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3B11DB622EF0072A519 /* QuickDialogDataSource.m */; };
+		735CD3F31DB622EF0072A519 /* QuickDialogTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3B51DB622EF0072A519 /* QuickDialogTableDelegate.m */; };
+		735CD3F41DB622EF0072A519 /* QuickDialogTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3B71DB622EF0072A519 /* QuickDialogTableView.m */; };
+		735CD3F51DB622EF0072A519 /* QuickDialogWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3B91DB622EF0072A519 /* QuickDialogWebController.m */; };
+		735CD3F81DB623280072A519 /* BYQuickDialogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3F71DB623280072A519 /* BYQuickDialogVC.m */; };
+		735CD3FB1DB6234E0072A519 /* BYFormListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3FA1DB6234E0072A519 /* BYFormListVC.m */; };
+		735CD3FD1DB627410072A519 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735CD3FC1DB627410072A519 /* libQuickDialog.a */; };
+		735CD4001DB62B9F0072A519 /* BYQDDataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3FF1DB62B9F0072A519 /* BYQDDataBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +203,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7327F7AA1DB75F32006F3AE4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7327F7AC1DB75F32006F3AE4 /* MTreeNode+ExpandNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTreeNode+ExpandNode.h"; sourceTree = "<group>"; };
+		7327F7AD1DB75F32006F3AE4 /* MTreeNode+ExpandNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTreeNode+ExpandNode.m"; sourceTree = "<group>"; };
+		7327F7AE1DB75F32006F3AE4 /* MTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTreeNode.h; sourceTree = "<group>"; };
+		7327F7AF1DB75F32006F3AE4 /* MTreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTreeNode.m; sourceTree = "<group>"; };
+		7327F7B01DB75F32006F3AE4 /* MTreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTreeView.h; sourceTree = "<group>"; };
+		7327F7B11DB75F32006F3AE4 /* MTreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTreeView.m; sourceTree = "<group>"; };
+		7327F7B21DB75F32006F3AE4 /* MTreeViewFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTreeViewFramework.h; sourceTree = "<group>"; };
+		7327F7B71DB76078006F3AE4 /* BYTreeTableViewListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTreeTableViewListVC.h; sourceTree = "<group>"; };
+		7327F7B81DB76078006F3AE4 /* BYTreeTableViewListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTreeTableViewListVC.m; sourceTree = "<group>"; };
+		7327F7B91DB76078006F3AE4 /* BYTreeTableViewListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BYTreeTableViewListVC.xib; sourceTree = "<group>"; };
+		7327F7BC1DB76A5F006F3AE4 /* BYTempWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTempWebVC.h; sourceTree = "<group>"; };
+		7327F7BD1DB76A5F006F3AE4 /* BYTempWebVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTempWebVC.m; sourceTree = "<group>"; };
+		7327F7BF1DB76FC6006F3AE4 /* BYTreeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTreeTableViewController.h; sourceTree = "<group>"; };
+		7327F7C01DB76FC6006F3AE4 /* BYTreeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTreeTableViewController.m; sourceTree = "<group>"; };
+		7327F7C21DB77167006F3AE4 /* BYMultistageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMultistageVC.h; sourceTree = "<group>"; };
+		7327F7C31DB77167006F3AE4 /* BYMultistageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMultistageVC.m; sourceTree = "<group>"; };
+		7327F7C81DB771D1006F3AE4 /* BYFileTreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYFileTreeVC.h; sourceTree = "<group>"; };
+		7327F7C91DB771D1006F3AE4 /* BYFileTreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYFileTreeVC.m; sourceTree = "<group>"; };
+		7327F7CB1DB771E6006F3AE4 /* BYQQTreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYQQTreeVC.h; sourceTree = "<group>"; };
+		7327F7CC1DB771E6006F3AE4 /* BYQQTreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYQQTreeVC.m; sourceTree = "<group>"; };
+		7327F7D11DB77ECD006F3AE4 /* BYQQTreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYQQTreeCell.h; sourceTree = "<group>"; };
+		7327F7D21DB77ECD006F3AE4 /* BYQQTreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYQQTreeCell.m; sourceTree = "<group>"; };
 		734BEE311DAF9760005532A1 /* BYLayoutSet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYLayoutSet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		734BEE351DAF9760005532A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		734BEE371DAF9760005532A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -205,6 +342,216 @@
 		734BEED51DAF97FB005532A1 /* BYScrollTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYScrollTableViewVC.m; sourceTree = "<group>"; };
 		734BEED81DAF97FB005532A1 /* BYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYWebViewController.h; sourceTree = "<group>"; };
 		734BEED91DAF97FB005532A1 /* BYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYWebViewController.m; sourceTree = "<group>"; };
+		735CD2C11DB60C4C0072A519 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		735CD2C41DB60C4C0072A519 /* XLFormBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormBaseCell.h; sourceTree = "<group>"; };
+		735CD2C51DB60C4C0072A519 /* XLFormBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormBaseCell.m; sourceTree = "<group>"; };
+		735CD2C61DB60C4C0072A519 /* XLFormButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormButtonCell.h; sourceTree = "<group>"; };
+		735CD2C71DB60C4C0072A519 /* XLFormButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormButtonCell.m; sourceTree = "<group>"; };
+		735CD2C81DB60C4C0072A519 /* XLFormCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormCheckCell.h; sourceTree = "<group>"; };
+		735CD2C91DB60C4C0072A519 /* XLFormCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormCheckCell.m; sourceTree = "<group>"; };
+		735CD2CA1DB60C4C0072A519 /* XLFormDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDateCell.h; sourceTree = "<group>"; };
+		735CD2CB1DB60C4C0072A519 /* XLFormDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDateCell.m; sourceTree = "<group>"; };
+		735CD2CC1DB60C4C0072A519 /* XLFormDatePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDatePickerCell.h; sourceTree = "<group>"; };
+		735CD2CD1DB60C4C0072A519 /* XLFormDatePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDatePickerCell.m; sourceTree = "<group>"; };
+		735CD2CE1DB60C4C0072A519 /* XLFormDescriptorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptorCell.h; sourceTree = "<group>"; };
+		735CD2CF1DB60C4C0072A519 /* XLFormImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormImageCell.h; sourceTree = "<group>"; };
+		735CD2D01DB60C4C0072A519 /* XLFormImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormImageCell.m; sourceTree = "<group>"; };
+		735CD2D11DB60C4C0072A519 /* XLFormInlineRowDescriptorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineRowDescriptorCell.h; sourceTree = "<group>"; };
+		735CD2D21DB60C4C0072A519 /* XLFormInlineSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormInlineSelectorCell.h; sourceTree = "<group>"; };
+		735CD2D31DB60C4C0072A519 /* XLFormInlineSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormInlineSelectorCell.m; sourceTree = "<group>"; };
+		735CD2D41DB60C4C0072A519 /* XLFormLeftRightSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormLeftRightSelectorCell.h; sourceTree = "<group>"; };
+		735CD2D51DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormLeftRightSelectorCell.m; sourceTree = "<group>"; };
+		735CD2D61DB60C4C0072A519 /* XLFormPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormPickerCell.h; sourceTree = "<group>"; };
+		735CD2D71DB60C4C0072A519 /* XLFormPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormPickerCell.m; sourceTree = "<group>"; };
+		735CD2D81DB60C4C0072A519 /* XLFormSegmentedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSegmentedCell.h; sourceTree = "<group>"; };
+		735CD2D91DB60C4C0072A519 /* XLFormSegmentedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSegmentedCell.m; sourceTree = "<group>"; };
+		735CD2DA1DB60C4C0072A519 /* XLFormSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSelectorCell.h; sourceTree = "<group>"; };
+		735CD2DB1DB60C4C0072A519 /* XLFormSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSelectorCell.m; sourceTree = "<group>"; };
+		735CD2DC1DB60C4C0072A519 /* XLFormSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSliderCell.h; sourceTree = "<group>"; };
+		735CD2DD1DB60C4C0072A519 /* XLFormSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSliderCell.m; sourceTree = "<group>"; };
+		735CD2DE1DB60C4C0072A519 /* XLFormStepCounterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormStepCounterCell.h; sourceTree = "<group>"; };
+		735CD2DF1DB60C4C0072A519 /* XLFormStepCounterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormStepCounterCell.m; sourceTree = "<group>"; };
+		735CD2E01DB60C4C0072A519 /* XLFormSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSwitchCell.h; sourceTree = "<group>"; };
+		735CD2E11DB60C4C0072A519 /* XLFormSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSwitchCell.m; sourceTree = "<group>"; };
+		735CD2E21DB60C4C0072A519 /* XLFormTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextFieldCell.h; sourceTree = "<group>"; };
+		735CD2E31DB60C4C0072A519 /* XLFormTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextFieldCell.m; sourceTree = "<group>"; };
+		735CD2E41DB60C4C0072A519 /* XLFormTextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextViewCell.h; sourceTree = "<group>"; };
+		735CD2E51DB60C4C0072A519 /* XLFormTextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextViewCell.m; sourceTree = "<group>"; };
+		735CD2E71DB60C4C0072A519 /* XLFormOptionsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormOptionsObject.h; sourceTree = "<group>"; };
+		735CD2E81DB60C4C0072A519 /* XLFormOptionsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormOptionsObject.m; sourceTree = "<group>"; };
+		735CD2E91DB60C4C0072A519 /* XLFormOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormOptionsViewController.h; sourceTree = "<group>"; };
+		735CD2EA1DB60C4C0072A519 /* XLFormOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormOptionsViewController.m; sourceTree = "<group>"; };
+		735CD2EB1DB60C4C0072A519 /* XLFormRowDescriptorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowDescriptorViewController.h; sourceTree = "<group>"; };
+		735CD2EC1DB60C4C0072A519 /* XLFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormViewController.h; sourceTree = "<group>"; };
+		735CD2ED1DB60C4C0072A519 /* XLFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormViewController.m; sourceTree = "<group>"; };
+		735CD2EF1DB60C4C0072A519 /* XLFormDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptor.h; sourceTree = "<group>"; };
+		735CD2F01DB60C4C0072A519 /* XLFormDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormDescriptor.m; sourceTree = "<group>"; };
+		735CD2F11DB60C4C0072A519 /* XLFormDescriptorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormDescriptorDelegate.h; sourceTree = "<group>"; };
+		735CD2F21DB60C4C0072A519 /* XLFormRowDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowDescriptor.h; sourceTree = "<group>"; };
+		735CD2F31DB60C4C0072A519 /* XLFormRowDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRowDescriptor.m; sourceTree = "<group>"; };
+		735CD2F41DB60C4C0072A519 /* XLFormSectionDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormSectionDescriptor.h; sourceTree = "<group>"; };
+		735CD2F51DB60C4C0072A519 /* XLFormSectionDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormSectionDescriptor.m; sourceTree = "<group>"; };
+		735CD2F71DB60C4C0072A519 /* NSArray+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD2F81DB60C4C0072A519 /* NSArray+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD2F91DB60C4C0072A519 /* NSExpression+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSExpression+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD2FA1DB60C4C0072A519 /* NSExpression+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSExpression+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD2FB1DB60C4C0072A519 /* NSObject+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD2FC1DB60C4C0072A519 /* NSObject+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD2FD1DB60C4C0072A519 /* NSPredicate+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPredicate+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD2FE1DB60C4C0072A519 /* NSPredicate+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPredicate+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD2FF1DB60C4C0072A519 /* NSString+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD3001DB60C4C0072A519 /* NSString+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD3011DB60C4C0072A519 /* UIView+XLFormAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLFormAdditions.h"; sourceTree = "<group>"; };
+		735CD3021DB60C4C0072A519 /* UIView+XLFormAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLFormAdditions.m"; sourceTree = "<group>"; };
+		735CD3041DB60C4C0072A519 /* XLFormRightDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRightDetailCell.h; sourceTree = "<group>"; };
+		735CD3051DB60C4C0072A519 /* XLFormRightDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRightDetailCell.m; sourceTree = "<group>"; };
+		735CD3061DB60C4C0072A519 /* XLFormRightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRightImageButton.h; sourceTree = "<group>"; };
+		735CD3071DB60C4C0072A519 /* XLFormRightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRightImageButton.m; sourceTree = "<group>"; };
+		735CD3081DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRowNavigationAccessoryView.h; sourceTree = "<group>"; };
+		735CD3091DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRowNavigationAccessoryView.m; sourceTree = "<group>"; };
+		735CD30A1DB60C4C0072A519 /* XLFormTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormTextView.h; sourceTree = "<group>"; };
+		735CD30B1DB60C4C0072A519 /* XLFormTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormTextView.m; sourceTree = "<group>"; };
+		735CD30D1DB60C4C0072A519 /* XLFormRegexValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormRegexValidator.h; sourceTree = "<group>"; };
+		735CD30E1DB60C4C0072A519 /* XLFormRegexValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormRegexValidator.m; sourceTree = "<group>"; };
+		735CD30F1DB60C4C0072A519 /* XLFormValidationStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidationStatus.h; sourceTree = "<group>"; };
+		735CD3101DB60C4C0072A519 /* XLFormValidationStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormValidationStatus.m; sourceTree = "<group>"; };
+		735CD3111DB60C4C0072A519 /* XLFormValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidator.h; sourceTree = "<group>"; };
+		735CD3121DB60C4C0072A519 /* XLFormValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFormValidator.m; sourceTree = "<group>"; };
+		735CD3131DB60C4C0072A519 /* XLFormValidatorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFormValidatorProtocol.h; sourceTree = "<group>"; };
+		735CD3141DB60C4C0072A519 /* XLForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLForm.h; sourceTree = "<group>"; };
+		735CD3151DB60C4C0072A519 /* XLForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLForm.m; sourceTree = "<group>"; };
+		735CD3161DB60C4C0072A519 /* XLForm.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLForm.bundle; sourceTree = "<group>"; };
+		735CD33D1DB60CF60072A519 /* BYFormVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYFormVC.h; sourceTree = "<group>"; };
+		735CD33E1DB60CF60072A519 /* BYFormVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYFormVC.m; sourceTree = "<group>"; };
+		735CD3411DB622EE0072A519 /* DOAutocompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DOAutocompleteTextField.h; sourceTree = "<group>"; };
+		735CD3421DB622EE0072A519 /* DOAutocompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DOAutocompleteTextField.m; sourceTree = "<group>"; };
+		735CD3431DB622EE0072A519 /* NSMutableArray+IMSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+IMSExtensions.h"; sourceTree = "<group>"; };
+		735CD3441DB622EE0072A519 /* NSMutableArray+IMSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+IMSExtensions.m"; sourceTree = "<group>"; };
+		735CD3451DB622EE0072A519 /* NSMutableArray+MoveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+MoveObject.h"; sourceTree = "<group>"; };
+		735CD3461DB622EE0072A519 /* NSMutableArray+MoveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+MoveObject.m"; sourceTree = "<group>"; };
+		735CD3471DB622EE0072A519 /* QAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAppearance.h; sourceTree = "<group>"; };
+		735CD3481DB622EE0072A519 /* QAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAppearance.m; sourceTree = "<group>"; };
+		735CD3491DB622EE0072A519 /* QAutoEntryElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAutoEntryElement.h; sourceTree = "<group>"; };
+		735CD34A1DB622EE0072A519 /* QAutoEntryElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAutoEntryElement.m; sourceTree = "<group>"; };
+		735CD34B1DB622EE0072A519 /* QAutoEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAutoEntryTableViewCell.h; sourceTree = "<group>"; };
+		735CD34C1DB622EE0072A519 /* QAutoEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAutoEntryTableViewCell.m; sourceTree = "<group>"; };
+		735CD34D1DB622EE0072A519 /* QBadgeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBadgeElement.h; sourceTree = "<group>"; };
+		735CD34E1DB622EE0072A519 /* QBadgeElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBadgeElement.m; sourceTree = "<group>"; };
+		735CD34F1DB622EE0072A519 /* QBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBadgeLabel.h; sourceTree = "<group>"; };
+		735CD3501DB622EE0072A519 /* QBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBadgeLabel.m; sourceTree = "<group>"; };
+		735CD3511DB622EE0072A519 /* QBadgeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBadgeTableCell.h; sourceTree = "<group>"; };
+		735CD3521DB622EE0072A519 /* QBadgeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBadgeTableCell.m; sourceTree = "<group>"; };
+		735CD3531DB622EE0072A519 /* QBindingEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBindingEvaluator.h; sourceTree = "<group>"; };
+		735CD3541DB622EE0072A519 /* QBindingEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBindingEvaluator.m; sourceTree = "<group>"; };
+		735CD3551DB622EE0072A519 /* QBooleanElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBooleanElement.h; sourceTree = "<group>"; };
+		735CD3561DB622EE0072A519 /* QBooleanElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBooleanElement.m; sourceTree = "<group>"; };
+		735CD3571DB622EE0072A519 /* QButtonElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QButtonElement.h; sourceTree = "<group>"; };
+		735CD3581DB622EE0072A519 /* QButtonElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QButtonElement.m; sourceTree = "<group>"; };
+		735CD3591DB622EE0072A519 /* QClassicAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QClassicAppearance.h; sourceTree = "<group>"; };
+		735CD35A1DB622EE0072A519 /* QClassicAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QClassicAppearance.m; sourceTree = "<group>"; };
+		735CD35B1DB622EE0072A519 /* QCountdownElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCountdownElement.h; sourceTree = "<group>"; };
+		735CD35C1DB622EE0072A519 /* QCountdownElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCountdownElement.m; sourceTree = "<group>"; };
+		735CD35D1DB622EE0072A519 /* QDateEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDateEntryTableViewCell.h; sourceTree = "<group>"; };
+		735CD35E1DB622EE0072A519 /* QDateEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDateEntryTableViewCell.m; sourceTree = "<group>"; };
+		735CD35F1DB622EE0072A519 /* QDateInlineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDateInlineTableViewCell.h; sourceTree = "<group>"; };
+		735CD3601DB622EE0072A519 /* QDateInlineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDateInlineTableViewCell.m; sourceTree = "<group>"; };
+		735CD3611DB622EE0072A519 /* QDateTimeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDateTimeElement.h; sourceTree = "<group>"; };
+		735CD3621DB622EE0072A519 /* QDateTimeElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDateTimeElement.m; sourceTree = "<group>"; };
+		735CD3631DB622EE0072A519 /* QDateTimeInlineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDateTimeInlineElement.h; sourceTree = "<group>"; };
+		735CD3641DB622EE0072A519 /* QDateTimeInlineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDateTimeInlineElement.m; sourceTree = "<group>"; };
+		735CD3651DB622EE0072A519 /* QDecimalElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDecimalElement.h; sourceTree = "<group>"; };
+		735CD3661DB622EE0072A519 /* QDecimalElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDecimalElement.m; sourceTree = "<group>"; };
+		735CD3671DB622EE0072A519 /* QDecimalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDecimalTableViewCell.h; sourceTree = "<group>"; };
+		735CD3681DB622EE0072A519 /* QDecimalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDecimalTableViewCell.m; sourceTree = "<group>"; };
+		735CD3691DB622EE0072A519 /* QDynamicDataSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDynamicDataSection.h; sourceTree = "<group>"; };
+		735CD36A1DB622EE0072A519 /* QDynamicDataSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDynamicDataSection.m; sourceTree = "<group>"; };
+		735CD36B1DB622EE0072A519 /* QElement+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QElement+Appearance.h"; sourceTree = "<group>"; };
+		735CD36C1DB622EE0072A519 /* QElement+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QElement+Appearance.m"; sourceTree = "<group>"; };
+		735CD36D1DB622EE0072A519 /* QElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QElement.h; sourceTree = "<group>"; };
+		735CD36E1DB622EE0072A519 /* QElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QElement.m; sourceTree = "<group>"; };
+		735CD36F1DB622EE0072A519 /* QEmptyListElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QEmptyListElement.h; sourceTree = "<group>"; };
+		735CD3701DB622EE0072A519 /* QEmptyListElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QEmptyListElement.m; sourceTree = "<group>"; };
+		735CD3711DB622EE0072A519 /* QEntryElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QEntryElement.h; sourceTree = "<group>"; };
+		735CD3721DB622EE0072A519 /* QEntryElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QEntryElement.m; sourceTree = "<group>"; };
+		735CD3731DB622EE0072A519 /* QEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QEntryTableViewCell.h; sourceTree = "<group>"; };
+		735CD3741DB622EE0072A519 /* QEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QEntryTableViewCell.m; sourceTree = "<group>"; };
+		735CD3751DB622EE0072A519 /* QFlatAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFlatAppearance.h; sourceTree = "<group>"; };
+		735CD3761DB622EE0072A519 /* QFlatAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFlatAppearance.m; sourceTree = "<group>"; };
+		735CD3771DB622EE0072A519 /* QFloatElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFloatElement.h; sourceTree = "<group>"; };
+		735CD3781DB622EE0072A519 /* QFloatElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFloatElement.m; sourceTree = "<group>"; };
+		735CD3791DB622EE0072A519 /* QFloatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFloatTableViewCell.h; sourceTree = "<group>"; };
+		735CD37A1DB622EE0072A519 /* QFloatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFloatTableViewCell.m; sourceTree = "<group>"; };
+		735CD37B1DB622EE0072A519 /* QImageElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QImageElement.h; sourceTree = "<group>"; };
+		735CD37C1DB622EE0072A519 /* QImageElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QImageElement.m; sourceTree = "<group>"; };
+		735CD37D1DB622EE0072A519 /* QImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QImageTableViewCell.h; sourceTree = "<group>"; };
+		735CD37E1DB622EE0072A519 /* QImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QImageTableViewCell.m; sourceTree = "<group>"; };
+		735CD37F1DB622EE0072A519 /* QLabelElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLabelElement.h; sourceTree = "<group>"; };
+		735CD3801DB622EE0072A519 /* QLabelElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLabelElement.m; sourceTree = "<group>"; };
+		735CD3811DB622EE0072A519 /* QLoadingElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLoadingElement.h; sourceTree = "<group>"; };
+		735CD3821DB622EE0072A519 /* QLoadingElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLoadingElement.m; sourceTree = "<group>"; };
+		735CD3831DB622EE0072A519 /* QMultilineElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMultilineElement.h; sourceTree = "<group>"; };
+		735CD3841DB622EE0072A519 /* QMultilineElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMultilineElement.m; sourceTree = "<group>"; };
+		735CD3851DB622EE0072A519 /* QMultilineTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMultilineTextViewController.h; sourceTree = "<group>"; };
+		735CD3861DB622EE0072A519 /* QMultilineTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMultilineTextViewController.m; sourceTree = "<group>"; };
+		735CD3871DB622EE0072A519 /* QProgressElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QProgressElement.h; sourceTree = "<group>"; };
+		735CD3881DB622EE0072A519 /* QProgressElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QProgressElement.m; sourceTree = "<group>"; };
+		735CD3891DB622EE0072A519 /* QRadioElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioElement.h; sourceTree = "<group>"; };
+		735CD38A1DB622EE0072A519 /* QRadioElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioElement.m; sourceTree = "<group>"; };
+		735CD38B1DB622EE0072A519 /* QRadioItemElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioItemElement.h; sourceTree = "<group>"; };
+		735CD38C1DB622EE0072A519 /* QRadioItemElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioItemElement.m; sourceTree = "<group>"; };
+		735CD38D1DB622EE0072A519 /* QRadioSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRadioSection.h; sourceTree = "<group>"; };
+		735CD38E1DB622EE0072A519 /* QRadioSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRadioSection.m; sourceTree = "<group>"; };
+		735CD38F1DB622EE0072A519 /* QRootBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRootBuilder.h; sourceTree = "<group>"; };
+		735CD3901DB622EE0072A519 /* QRootBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRootBuilder.m; sourceTree = "<group>"; };
+		735CD3911DB622EE0072A519 /* QRootElement+JsonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QRootElement+JsonBuilder.h"; sourceTree = "<group>"; };
+		735CD3921DB622EE0072A519 /* QRootElement+JsonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QRootElement+JsonBuilder.m"; sourceTree = "<group>"; };
+		735CD3931DB622EE0072A519 /* QRootElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRootElement.h; sourceTree = "<group>"; };
+		735CD3941DB622EE0072A519 /* QRootElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRootElement.m; sourceTree = "<group>"; };
+		735CD3951DB622EE0072A519 /* QSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSection.h; sourceTree = "<group>"; };
+		735CD3961DB622EE0072A519 /* QSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSection.m; sourceTree = "<group>"; };
+		735CD3971DB622EE0072A519 /* QSegmentedElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSegmentedElement.h; sourceTree = "<group>"; };
+		735CD3981DB622EE0072A519 /* QSegmentedElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSegmentedElement.m; sourceTree = "<group>"; };
+		735CD3991DB622EE0072A519 /* QSelectItemElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSelectItemElement.h; sourceTree = "<group>"; };
+		735CD39A1DB622EE0072A519 /* QSelectItemElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSelectItemElement.m; sourceTree = "<group>"; };
+		735CD39B1DB622EE0072A519 /* QSelectSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSelectSection.h; sourceTree = "<group>"; };
+		735CD39C1DB622EE0072A519 /* QSelectSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSelectSection.m; sourceTree = "<group>"; };
+		735CD39D1DB622EE0072A519 /* QSortingSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSortingSection.h; sourceTree = "<group>"; };
+		735CD39E1DB622EF0072A519 /* QSortingSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSortingSection.m; sourceTree = "<group>"; };
+		735CD39F1DB622EF0072A519 /* QTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTableViewCell.h; sourceTree = "<group>"; };
+		735CD3A01DB622EF0072A519 /* QTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTableViewCell.m; sourceTree = "<group>"; };
+		735CD3A11DB622EF0072A519 /* QTextElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTextElement.h; sourceTree = "<group>"; };
+		735CD3A21DB622EF0072A519 /* QTextElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTextElement.m; sourceTree = "<group>"; };
+		735CD3A31DB622EF0072A519 /* QTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QTextField.h; sourceTree = "<group>"; };
+		735CD3A41DB622EF0072A519 /* QTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QTextField.m; sourceTree = "<group>"; };
+		735CD3A51DB622EF0072A519 /* QuickDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialog.h; sourceTree = "<group>"; };
+		735CD3A61DB622EF0072A519 /* QuickDialogController+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickDialogController+Animations.h"; sourceTree = "<group>"; };
+		735CD3A71DB622EF0072A519 /* QuickDialogController+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuickDialogController+Animations.m"; sourceTree = "<group>"; };
+		735CD3A81DB622EF0072A519 /* QuickDialogController+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickDialogController+Helpers.h"; sourceTree = "<group>"; };
+		735CD3A91DB622EF0072A519 /* QuickDialogController+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuickDialogController+Helpers.m"; sourceTree = "<group>"; };
+		735CD3AA1DB622EF0072A519 /* QuickDialogController+Loading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickDialogController+Loading.h"; sourceTree = "<group>"; };
+		735CD3AB1DB622EF0072A519 /* QuickDialogController+Loading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuickDialogController+Loading.m"; sourceTree = "<group>"; };
+		735CD3AC1DB622EF0072A519 /* QuickDialogController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QuickDialogController+Navigation.h"; sourceTree = "<group>"; };
+		735CD3AD1DB622EF0072A519 /* QuickDialogController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QuickDialogController+Navigation.m"; sourceTree = "<group>"; };
+		735CD3AE1DB622EF0072A519 /* QuickDialogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogController.h; sourceTree = "<group>"; };
+		735CD3AF1DB622EF0072A519 /* QuickDialogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDialogController.m; sourceTree = "<group>"; };
+		735CD3B01DB622EF0072A519 /* QuickDialogDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogDataSource.h; sourceTree = "<group>"; };
+		735CD3B11DB622EF0072A519 /* QuickDialogDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDialogDataSource.m; sourceTree = "<group>"; };
+		735CD3B21DB622EF0072A519 /* QuickDialogDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogDelegate.h; sourceTree = "<group>"; };
+		735CD3B31DB622EF0072A519 /* QuickDialogEntryElementDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogEntryElementDelegate.h; sourceTree = "<group>"; };
+		735CD3B41DB622EF0072A519 /* QuickDialogTableDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogTableDelegate.h; sourceTree = "<group>"; };
+		735CD3B51DB622EF0072A519 /* QuickDialogTableDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDialogTableDelegate.m; sourceTree = "<group>"; };
+		735CD3B61DB622EF0072A519 /* QuickDialogTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogTableView.h; sourceTree = "<group>"; };
+		735CD3B71DB622EF0072A519 /* QuickDialogTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDialogTableView.m; sourceTree = "<group>"; };
+		735CD3B81DB622EF0072A519 /* QuickDialogWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickDialogWebController.h; sourceTree = "<group>"; };
+		735CD3B91DB622EF0072A519 /* QuickDialogWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickDialogWebController.m; sourceTree = "<group>"; };
+		735CD3BA1DB622EF0072A519 /* quickform-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "quickform-Prefix.pch"; sourceTree = "<group>"; };
+		735CD3F61DB623280072A519 /* BYQuickDialogVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYQuickDialogVC.h; sourceTree = "<group>"; };
+		735CD3F71DB623280072A519 /* BYQuickDialogVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYQuickDialogVC.m; sourceTree = "<group>"; };
+		735CD3F91DB6234E0072A519 /* BYFormListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYFormListVC.h; sourceTree = "<group>"; };
+		735CD3FA1DB6234E0072A519 /* BYFormListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYFormListVC.m; sourceTree = "<group>"; };
+		735CD3FC1DB627410072A519 /* libQuickDialog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickDialog.a; sourceTree = "<group>"; };
+		735CD3FE1DB62B9F0072A519 /* BYQDDataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYQDDataBuilder.h; sourceTree = "<group>"; };
+		735CD3FF1DB62B9F0072A519 /* BYQDDataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYQDDataBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +559,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				735CD3FD1DB627410072A519 /* libQuickDialog.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +580,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7327F7A91DB75F32006F3AE4 /* MTreeViewFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7327F7AA1DB75F32006F3AE4 /* Info.plist */,
+				7327F7AB1DB75F32006F3AE4 /* MTreeView */,
+				7327F7B21DB75F32006F3AE4 /* MTreeViewFramework.h */,
+			);
+			path = MTreeViewFramework;
+			sourceTree = "<group>";
+		};
+		7327F7AB1DB75F32006F3AE4 /* MTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				7327F7AC1DB75F32006F3AE4 /* MTreeNode+ExpandNode.h */,
+				7327F7AD1DB75F32006F3AE4 /* MTreeNode+ExpandNode.m */,
+				7327F7AE1DB75F32006F3AE4 /* MTreeNode.h */,
+				7327F7AF1DB75F32006F3AE4 /* MTreeNode.m */,
+				7327F7B01DB75F32006F3AE4 /* MTreeView.h */,
+				7327F7B11DB75F32006F3AE4 /* MTreeView.m */,
+			);
+			path = MTreeView;
+			sourceTree = "<group>";
+		};
 		734BEE281DAF9760005532A1 = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +630,8 @@
 				734BEE381DAF9760005532A1 /* AppDelegate.m */,
 				734BEE3A1DAF9760005532A1 /* ViewController.h */,
 				734BEE3B1DAF9760005532A1 /* ViewController.m */,
+				7327F7BC1DB76A5F006F3AE4 /* BYTempWebVC.h */,
+				7327F7BD1DB76A5F006F3AE4 /* BYTempWebVC.m */,
 				734BEED71DAF97FB005532A1 /* BYWebView */,
 				734BEE8D1DAF97FB005532A1 /* BYRefreshTopView */,
 				734BEE811DAF97FB005532A1 /* BYGuevaraEffect */,
@@ -354,6 +727,16 @@
 		734BEE801DAF97FB005532A1 /* BYFormView */ = {
 			isa = PBXGroup;
 			children = (
+				735CD3F91DB6234E0072A519 /* BYFormListVC.h */,
+				735CD3FA1DB6234E0072A519 /* BYFormListVC.m */,
+				735CD33D1DB60CF60072A519 /* BYFormVC.h */,
+				735CD33E1DB60CF60072A519 /* BYFormVC.m */,
+				735CD3F61DB623280072A519 /* BYQuickDialogVC.h */,
+				735CD3F71DB623280072A519 /* BYQuickDialogVC.m */,
+				735CD3FE1DB62B9F0072A519 /* BYQDDataBuilder.h */,
+				735CD3FF1DB62B9F0072A519 /* BYQDDataBuilder.m */,
+				735CD3401DB622EE0072A519 /* quickdialog */,
+				735CD2C01DB60C4C0072A519 /* XLForm */,
 			);
 			path = BYFormView;
 			sourceTree = "<group>";
@@ -485,6 +868,20 @@
 		734BEED61DAF97FB005532A1 /* BYTreeTableView */ = {
 			isa = PBXGroup;
 			children = (
+				7327F7B71DB76078006F3AE4 /* BYTreeTableViewListVC.h */,
+				7327F7B81DB76078006F3AE4 /* BYTreeTableViewListVC.m */,
+				7327F7B91DB76078006F3AE4 /* BYTreeTableViewListVC.xib */,
+				7327F7BF1DB76FC6006F3AE4 /* BYTreeTableViewController.h */,
+				7327F7C01DB76FC6006F3AE4 /* BYTreeTableViewController.m */,
+				7327F7C21DB77167006F3AE4 /* BYMultistageVC.h */,
+				7327F7C31DB77167006F3AE4 /* BYMultistageVC.m */,
+				7327F7CB1DB771E6006F3AE4 /* BYQQTreeVC.h */,
+				7327F7CC1DB771E6006F3AE4 /* BYQQTreeVC.m */,
+				7327F7D11DB77ECD006F3AE4 /* BYQQTreeCell.h */,
+				7327F7D21DB77ECD006F3AE4 /* BYQQTreeCell.m */,
+				7327F7C81DB771D1006F3AE4 /* BYFileTreeVC.h */,
+				7327F7C91DB771D1006F3AE4 /* BYFileTreeVC.m */,
+				7327F7A91DB75F32006F3AE4 /* MTreeViewFramework */,
 			);
 			path = BYTreeTableView;
 			sourceTree = "<group>";
@@ -496,6 +893,278 @@
 				734BEED91DAF97FB005532A1 /* BYWebViewController.m */,
 			);
 			path = BYWebView;
+			sourceTree = "<group>";
+		};
+		735CD2C01DB60C4C0072A519 /* XLForm */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2C11DB60C4C0072A519 /* Info.plist */,
+				735CD2C21DB60C4C0072A519 /* XL */,
+				735CD3161DB60C4C0072A519 /* XLForm.bundle */,
+			);
+			path = XLForm;
+			sourceTree = "<group>";
+		};
+		735CD2C21DB60C4C0072A519 /* XL */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2C31DB60C4C0072A519 /* Cell */,
+				735CD2E61DB60C4C0072A519 /* Controllers */,
+				735CD2EE1DB60C4C0072A519 /* Descriptors */,
+				735CD2F61DB60C4C0072A519 /* Helpers */,
+				735CD30C1DB60C4C0072A519 /* Validation */,
+				735CD3141DB60C4C0072A519 /* XLForm.h */,
+				735CD3151DB60C4C0072A519 /* XLForm.m */,
+			);
+			path = XL;
+			sourceTree = "<group>";
+		};
+		735CD2C31DB60C4C0072A519 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2C41DB60C4C0072A519 /* XLFormBaseCell.h */,
+				735CD2C51DB60C4C0072A519 /* XLFormBaseCell.m */,
+				735CD2C61DB60C4C0072A519 /* XLFormButtonCell.h */,
+				735CD2C71DB60C4C0072A519 /* XLFormButtonCell.m */,
+				735CD2C81DB60C4C0072A519 /* XLFormCheckCell.h */,
+				735CD2C91DB60C4C0072A519 /* XLFormCheckCell.m */,
+				735CD2CA1DB60C4C0072A519 /* XLFormDateCell.h */,
+				735CD2CB1DB60C4C0072A519 /* XLFormDateCell.m */,
+				735CD2CC1DB60C4C0072A519 /* XLFormDatePickerCell.h */,
+				735CD2CD1DB60C4C0072A519 /* XLFormDatePickerCell.m */,
+				735CD2CE1DB60C4C0072A519 /* XLFormDescriptorCell.h */,
+				735CD2CF1DB60C4C0072A519 /* XLFormImageCell.h */,
+				735CD2D01DB60C4C0072A519 /* XLFormImageCell.m */,
+				735CD2D11DB60C4C0072A519 /* XLFormInlineRowDescriptorCell.h */,
+				735CD2D21DB60C4C0072A519 /* XLFormInlineSelectorCell.h */,
+				735CD2D31DB60C4C0072A519 /* XLFormInlineSelectorCell.m */,
+				735CD2D41DB60C4C0072A519 /* XLFormLeftRightSelectorCell.h */,
+				735CD2D51DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m */,
+				735CD2D61DB60C4C0072A519 /* XLFormPickerCell.h */,
+				735CD2D71DB60C4C0072A519 /* XLFormPickerCell.m */,
+				735CD2D81DB60C4C0072A519 /* XLFormSegmentedCell.h */,
+				735CD2D91DB60C4C0072A519 /* XLFormSegmentedCell.m */,
+				735CD2DA1DB60C4C0072A519 /* XLFormSelectorCell.h */,
+				735CD2DB1DB60C4C0072A519 /* XLFormSelectorCell.m */,
+				735CD2DC1DB60C4C0072A519 /* XLFormSliderCell.h */,
+				735CD2DD1DB60C4C0072A519 /* XLFormSliderCell.m */,
+				735CD2DE1DB60C4C0072A519 /* XLFormStepCounterCell.h */,
+				735CD2DF1DB60C4C0072A519 /* XLFormStepCounterCell.m */,
+				735CD2E01DB60C4C0072A519 /* XLFormSwitchCell.h */,
+				735CD2E11DB60C4C0072A519 /* XLFormSwitchCell.m */,
+				735CD2E21DB60C4C0072A519 /* XLFormTextFieldCell.h */,
+				735CD2E31DB60C4C0072A519 /* XLFormTextFieldCell.m */,
+				735CD2E41DB60C4C0072A519 /* XLFormTextViewCell.h */,
+				735CD2E51DB60C4C0072A519 /* XLFormTextViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		735CD2E61DB60C4C0072A519 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2E71DB60C4C0072A519 /* XLFormOptionsObject.h */,
+				735CD2E81DB60C4C0072A519 /* XLFormOptionsObject.m */,
+				735CD2E91DB60C4C0072A519 /* XLFormOptionsViewController.h */,
+				735CD2EA1DB60C4C0072A519 /* XLFormOptionsViewController.m */,
+				735CD2EB1DB60C4C0072A519 /* XLFormRowDescriptorViewController.h */,
+				735CD2EC1DB60C4C0072A519 /* XLFormViewController.h */,
+				735CD2ED1DB60C4C0072A519 /* XLFormViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		735CD2EE1DB60C4C0072A519 /* Descriptors */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2EF1DB60C4C0072A519 /* XLFormDescriptor.h */,
+				735CD2F01DB60C4C0072A519 /* XLFormDescriptor.m */,
+				735CD2F11DB60C4C0072A519 /* XLFormDescriptorDelegate.h */,
+				735CD2F21DB60C4C0072A519 /* XLFormRowDescriptor.h */,
+				735CD2F31DB60C4C0072A519 /* XLFormRowDescriptor.m */,
+				735CD2F41DB60C4C0072A519 /* XLFormSectionDescriptor.h */,
+				735CD2F51DB60C4C0072A519 /* XLFormSectionDescriptor.m */,
+			);
+			path = Descriptors;
+			sourceTree = "<group>";
+		};
+		735CD2F61DB60C4C0072A519 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				735CD2F71DB60C4C0072A519 /* NSArray+XLFormAdditions.h */,
+				735CD2F81DB60C4C0072A519 /* NSArray+XLFormAdditions.m */,
+				735CD2F91DB60C4C0072A519 /* NSExpression+XLFormAdditions.h */,
+				735CD2FA1DB60C4C0072A519 /* NSExpression+XLFormAdditions.m */,
+				735CD2FB1DB60C4C0072A519 /* NSObject+XLFormAdditions.h */,
+				735CD2FC1DB60C4C0072A519 /* NSObject+XLFormAdditions.m */,
+				735CD2FD1DB60C4C0072A519 /* NSPredicate+XLFormAdditions.h */,
+				735CD2FE1DB60C4C0072A519 /* NSPredicate+XLFormAdditions.m */,
+				735CD2FF1DB60C4C0072A519 /* NSString+XLFormAdditions.h */,
+				735CD3001DB60C4C0072A519 /* NSString+XLFormAdditions.m */,
+				735CD3011DB60C4C0072A519 /* UIView+XLFormAdditions.h */,
+				735CD3021DB60C4C0072A519 /* UIView+XLFormAdditions.m */,
+				735CD3031DB60C4C0072A519 /* Views */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		735CD3031DB60C4C0072A519 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				735CD3041DB60C4C0072A519 /* XLFormRightDetailCell.h */,
+				735CD3051DB60C4C0072A519 /* XLFormRightDetailCell.m */,
+				735CD3061DB60C4C0072A519 /* XLFormRightImageButton.h */,
+				735CD3071DB60C4C0072A519 /* XLFormRightImageButton.m */,
+				735CD3081DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.h */,
+				735CD3091DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m */,
+				735CD30A1DB60C4C0072A519 /* XLFormTextView.h */,
+				735CD30B1DB60C4C0072A519 /* XLFormTextView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		735CD30C1DB60C4C0072A519 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				735CD30D1DB60C4C0072A519 /* XLFormRegexValidator.h */,
+				735CD30E1DB60C4C0072A519 /* XLFormRegexValidator.m */,
+				735CD30F1DB60C4C0072A519 /* XLFormValidationStatus.h */,
+				735CD3101DB60C4C0072A519 /* XLFormValidationStatus.m */,
+				735CD3111DB60C4C0072A519 /* XLFormValidator.h */,
+				735CD3121DB60C4C0072A519 /* XLFormValidator.m */,
+				735CD3131DB60C4C0072A519 /* XLFormValidatorProtocol.h */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		735CD3401DB622EE0072A519 /* quickdialog */ = {
+			isa = PBXGroup;
+			children = (
+				735CD3FC1DB627410072A519 /* libQuickDialog.a */,
+				735CD3411DB622EE0072A519 /* DOAutocompleteTextField.h */,
+				735CD3421DB622EE0072A519 /* DOAutocompleteTextField.m */,
+				735CD3431DB622EE0072A519 /* NSMutableArray+IMSExtensions.h */,
+				735CD3441DB622EE0072A519 /* NSMutableArray+IMSExtensions.m */,
+				735CD3451DB622EE0072A519 /* NSMutableArray+MoveObject.h */,
+				735CD3461DB622EE0072A519 /* NSMutableArray+MoveObject.m */,
+				735CD3471DB622EE0072A519 /* QAppearance.h */,
+				735CD3481DB622EE0072A519 /* QAppearance.m */,
+				735CD3491DB622EE0072A519 /* QAutoEntryElement.h */,
+				735CD34A1DB622EE0072A519 /* QAutoEntryElement.m */,
+				735CD34B1DB622EE0072A519 /* QAutoEntryTableViewCell.h */,
+				735CD34C1DB622EE0072A519 /* QAutoEntryTableViewCell.m */,
+				735CD34D1DB622EE0072A519 /* QBadgeElement.h */,
+				735CD34E1DB622EE0072A519 /* QBadgeElement.m */,
+				735CD34F1DB622EE0072A519 /* QBadgeLabel.h */,
+				735CD3501DB622EE0072A519 /* QBadgeLabel.m */,
+				735CD3511DB622EE0072A519 /* QBadgeTableCell.h */,
+				735CD3521DB622EE0072A519 /* QBadgeTableCell.m */,
+				735CD3531DB622EE0072A519 /* QBindingEvaluator.h */,
+				735CD3541DB622EE0072A519 /* QBindingEvaluator.m */,
+				735CD3551DB622EE0072A519 /* QBooleanElement.h */,
+				735CD3561DB622EE0072A519 /* QBooleanElement.m */,
+				735CD3571DB622EE0072A519 /* QButtonElement.h */,
+				735CD3581DB622EE0072A519 /* QButtonElement.m */,
+				735CD3591DB622EE0072A519 /* QClassicAppearance.h */,
+				735CD35A1DB622EE0072A519 /* QClassicAppearance.m */,
+				735CD35B1DB622EE0072A519 /* QCountdownElement.h */,
+				735CD35C1DB622EE0072A519 /* QCountdownElement.m */,
+				735CD35D1DB622EE0072A519 /* QDateEntryTableViewCell.h */,
+				735CD35E1DB622EE0072A519 /* QDateEntryTableViewCell.m */,
+				735CD35F1DB622EE0072A519 /* QDateInlineTableViewCell.h */,
+				735CD3601DB622EE0072A519 /* QDateInlineTableViewCell.m */,
+				735CD3611DB622EE0072A519 /* QDateTimeElement.h */,
+				735CD3621DB622EE0072A519 /* QDateTimeElement.m */,
+				735CD3631DB622EE0072A519 /* QDateTimeInlineElement.h */,
+				735CD3641DB622EE0072A519 /* QDateTimeInlineElement.m */,
+				735CD3651DB622EE0072A519 /* QDecimalElement.h */,
+				735CD3661DB622EE0072A519 /* QDecimalElement.m */,
+				735CD3671DB622EE0072A519 /* QDecimalTableViewCell.h */,
+				735CD3681DB622EE0072A519 /* QDecimalTableViewCell.m */,
+				735CD3691DB622EE0072A519 /* QDynamicDataSection.h */,
+				735CD36A1DB622EE0072A519 /* QDynamicDataSection.m */,
+				735CD36B1DB622EE0072A519 /* QElement+Appearance.h */,
+				735CD36C1DB622EE0072A519 /* QElement+Appearance.m */,
+				735CD36D1DB622EE0072A519 /* QElement.h */,
+				735CD36E1DB622EE0072A519 /* QElement.m */,
+				735CD36F1DB622EE0072A519 /* QEmptyListElement.h */,
+				735CD3701DB622EE0072A519 /* QEmptyListElement.m */,
+				735CD3711DB622EE0072A519 /* QEntryElement.h */,
+				735CD3721DB622EE0072A519 /* QEntryElement.m */,
+				735CD3731DB622EE0072A519 /* QEntryTableViewCell.h */,
+				735CD3741DB622EE0072A519 /* QEntryTableViewCell.m */,
+				735CD3751DB622EE0072A519 /* QFlatAppearance.h */,
+				735CD3761DB622EE0072A519 /* QFlatAppearance.m */,
+				735CD3771DB622EE0072A519 /* QFloatElement.h */,
+				735CD3781DB622EE0072A519 /* QFloatElement.m */,
+				735CD3791DB622EE0072A519 /* QFloatTableViewCell.h */,
+				735CD37A1DB622EE0072A519 /* QFloatTableViewCell.m */,
+				735CD37B1DB622EE0072A519 /* QImageElement.h */,
+				735CD37C1DB622EE0072A519 /* QImageElement.m */,
+				735CD37D1DB622EE0072A519 /* QImageTableViewCell.h */,
+				735CD37E1DB622EE0072A519 /* QImageTableViewCell.m */,
+				735CD37F1DB622EE0072A519 /* QLabelElement.h */,
+				735CD3801DB622EE0072A519 /* QLabelElement.m */,
+				735CD3811DB622EE0072A519 /* QLoadingElement.h */,
+				735CD3821DB622EE0072A519 /* QLoadingElement.m */,
+				735CD3831DB622EE0072A519 /* QMultilineElement.h */,
+				735CD3841DB622EE0072A519 /* QMultilineElement.m */,
+				735CD3851DB622EE0072A519 /* QMultilineTextViewController.h */,
+				735CD3861DB622EE0072A519 /* QMultilineTextViewController.m */,
+				735CD3871DB622EE0072A519 /* QProgressElement.h */,
+				735CD3881DB622EE0072A519 /* QProgressElement.m */,
+				735CD3891DB622EE0072A519 /* QRadioElement.h */,
+				735CD38A1DB622EE0072A519 /* QRadioElement.m */,
+				735CD38B1DB622EE0072A519 /* QRadioItemElement.h */,
+				735CD38C1DB622EE0072A519 /* QRadioItemElement.m */,
+				735CD38D1DB622EE0072A519 /* QRadioSection.h */,
+				735CD38E1DB622EE0072A519 /* QRadioSection.m */,
+				735CD38F1DB622EE0072A519 /* QRootBuilder.h */,
+				735CD3901DB622EE0072A519 /* QRootBuilder.m */,
+				735CD3911DB622EE0072A519 /* QRootElement+JsonBuilder.h */,
+				735CD3921DB622EE0072A519 /* QRootElement+JsonBuilder.m */,
+				735CD3931DB622EE0072A519 /* QRootElement.h */,
+				735CD3941DB622EE0072A519 /* QRootElement.m */,
+				735CD3951DB622EE0072A519 /* QSection.h */,
+				735CD3961DB622EE0072A519 /* QSection.m */,
+				735CD3971DB622EE0072A519 /* QSegmentedElement.h */,
+				735CD3981DB622EE0072A519 /* QSegmentedElement.m */,
+				735CD3991DB622EE0072A519 /* QSelectItemElement.h */,
+				735CD39A1DB622EE0072A519 /* QSelectItemElement.m */,
+				735CD39B1DB622EE0072A519 /* QSelectSection.h */,
+				735CD39C1DB622EE0072A519 /* QSelectSection.m */,
+				735CD39D1DB622EE0072A519 /* QSortingSection.h */,
+				735CD39E1DB622EF0072A519 /* QSortingSection.m */,
+				735CD39F1DB622EF0072A519 /* QTableViewCell.h */,
+				735CD3A01DB622EF0072A519 /* QTableViewCell.m */,
+				735CD3A11DB622EF0072A519 /* QTextElement.h */,
+				735CD3A21DB622EF0072A519 /* QTextElement.m */,
+				735CD3A31DB622EF0072A519 /* QTextField.h */,
+				735CD3A41DB622EF0072A519 /* QTextField.m */,
+				735CD3A51DB622EF0072A519 /* QuickDialog.h */,
+				735CD3A61DB622EF0072A519 /* QuickDialogController+Animations.h */,
+				735CD3A71DB622EF0072A519 /* QuickDialogController+Animations.m */,
+				735CD3A81DB622EF0072A519 /* QuickDialogController+Helpers.h */,
+				735CD3A91DB622EF0072A519 /* QuickDialogController+Helpers.m */,
+				735CD3AA1DB622EF0072A519 /* QuickDialogController+Loading.h */,
+				735CD3AB1DB622EF0072A519 /* QuickDialogController+Loading.m */,
+				735CD3AC1DB622EF0072A519 /* QuickDialogController+Navigation.h */,
+				735CD3AD1DB622EF0072A519 /* QuickDialogController+Navigation.m */,
+				735CD3AE1DB622EF0072A519 /* QuickDialogController.h */,
+				735CD3AF1DB622EF0072A519 /* QuickDialogController.m */,
+				735CD3B01DB622EF0072A519 /* QuickDialogDataSource.h */,
+				735CD3B11DB622EF0072A519 /* QuickDialogDataSource.m */,
+				735CD3B21DB622EF0072A519 /* QuickDialogDelegate.h */,
+				735CD3B31DB622EF0072A519 /* QuickDialogEntryElementDelegate.h */,
+				735CD3B41DB622EF0072A519 /* QuickDialogTableDelegate.h */,
+				735CD3B51DB622EF0072A519 /* QuickDialogTableDelegate.m */,
+				735CD3B61DB622EF0072A519 /* QuickDialogTableView.h */,
+				735CD3B71DB622EF0072A519 /* QuickDialogTableView.m */,
+				735CD3B81DB622EF0072A519 /* QuickDialogWebController.h */,
+				735CD3B91DB622EF0072A519 /* QuickDialogWebController.m */,
+				735CD3BA1DB622EF0072A519 /* quickform-Prefix.pch */,
+			);
+			path = quickdialog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,11 +1281,15 @@
 				734BEEE21DAF97FB005532A1 /* pptx文件.pptx in Resources */,
 				734BEEDC1DAF97FB005532A1 /* BYDocumentListVC.xib in Resources */,
 				734BEE471DAF9760005532A1 /* LaunchScreen.storyboard in Resources */,
+				735CD33C1DB60C4C0072A519 /* XLForm.bundle in Resources */,
+				7327F7B31DB75F32006F3AE4 /* Info.plist in Resources */,
 				734BEE441DAF9760005532A1 /* Assets.xcassets in Resources */,
 				734BEEDF1DAF97FB005532A1 /* doc文件.doc in Resources */,
 				734BEEE61DAF97FB005532A1 /* BYExpandVC.xib in Resources */,
 				734BEEE01DAF97FB005532A1 /* html文件.html in Resources */,
+				7327F7BB1DB76078006F3AE4 /* BYTreeTableViewListVC.xib in Resources */,
 				734BEE3F1DAF9760005532A1 /* Main.storyboard in Resources */,
+				735CD3171DB60C4C0072A519 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,52 +1314,161 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7327F7BE1DB76A5F006F3AE4 /* BYTempWebVC.m in Sources */,
+				735CD3EA1DB622EF0072A519 /* QTableViewCell.m in Sources */,
+				735CD3C41DB622EF0072A519 /* QBindingEvaluator.m in Sources */,
+				735CD3E01DB622EF0072A519 /* QRadioItemElement.m in Sources */,
 				734BEEF91DAF97FB005532A1 /* UIScrollView+MJExtension.m in Sources */,
+				735CD31B1DB60C4C0072A519 /* XLFormDateCell.m in Sources */,
+				735CD3DA1DB622EF0072A519 /* QLabelElement.m in Sources */,
+				735CD31F1DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m in Sources */,
+				735CD3341DB60C4C0072A519 /* XLFormRightDetailCell.m in Sources */,
+				735CD3DF1DB622EF0072A519 /* QRadioElement.m in Sources */,
 				734BEEDD1DAF97FB005532A1 /* BYDocumentReader.m in Sources */,
+				735CD3C71DB622EF0072A519 /* QClassicAppearance.m in Sources */,
 				734BEF031DAF97FB005532A1 /* SDWebImageManager.m in Sources */,
+				735CD3C51DB622EF0072A519 /* QBooleanElement.m in Sources */,
+				735CD3391DB60C4C0072A519 /* XLFormValidationStatus.m in Sources */,
+				735CD3DC1DB622EF0072A519 /* QMultilineElement.m in Sources */,
+				735CD3381DB60C4C0072A519 /* XLFormRegexValidator.m in Sources */,
+				735CD3C11DB622EF0072A519 /* QBadgeElement.m in Sources */,
 				734BEF041DAF97FB005532A1 /* SDWebImagePrefetcher.m in Sources */,
+				735CD3361DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m in Sources */,
+				735CD3DB1DB622EF0072A519 /* QLoadingElement.m in Sources */,
+				735CD3F51DB622EF0072A519 /* QuickDialogWebController.m in Sources */,
+				735CD32A1DB60C4C0072A519 /* XLFormViewController.m in Sources */,
 				734BEE3C1DAF9760005532A1 /* ViewController.m in Sources */,
+				735CD3F41DB622EF0072A519 /* QuickDialogTableView.m in Sources */,
 				734BEEF41DAF97FB005532A1 /* MJRefreshGifFooter.m in Sources */,
+				735CD31A1DB60C4C0072A519 /* XLFormCheckCell.m in Sources */,
+				735CD3BF1DB622EF0072A519 /* QAutoEntryElement.m in Sources */,
+				735CD3C01DB622EF0072A519 /* QAutoEntryTableViewCell.m in Sources */,
 				734BEEFA1DAF97FB005532A1 /* UIScrollView+MJRefresh.m in Sources */,
+				735CD3321DB60C4C0072A519 /* NSString+XLFormAdditions.m in Sources */,
+				735CD3E81DB622EF0072A519 /* QSelectSection.m in Sources */,
 				734BEF0B1DAF97FB005532A1 /* UIView+WebCacheOperation.m in Sources */,
+				735CD3DE1DB622EF0072A519 /* QProgressElement.m in Sources */,
+				735CD3BD1DB622EF0072A519 /* NSMutableArray+MoveObject.m in Sources */,
+				735CD3D71DB622EF0072A519 /* QFloatTableViewCell.m in Sources */,
+				735CD3F31DB622EF0072A519 /* QuickDialogTableDelegate.m in Sources */,
+				735CD3E71DB622EF0072A519 /* QSelectItemElement.m in Sources */,
 				734BEEF51DAF97FB005532A1 /* MJRefreshGifHeader.m in Sources */,
+				735CD33A1DB60C4C0072A519 /* XLFormValidator.m in Sources */,
 				734BEF021DAF97FB005532A1 /* SDWebImageDownloaderOperation.m in Sources */,
 				734BEE421DAF9760005532A1 /* BYLayoutSet.xcdatamodeld in Sources */,
 				734BEEDB1DAF97FB005532A1 /* BYDocumentListVC.m in Sources */,
+				735CD3DD1DB622EF0072A519 /* QMultilineTextViewController.m in Sources */,
+				735CD3E41DB622EF0072A519 /* QRootElement.m in Sources */,
 				734BEEF21DAF97FB005532A1 /* MJRefreshConst.m in Sources */,
+				7327F7B41DB75F32006F3AE4 /* MTreeNode+ExpandNode.m in Sources */,
+				735CD3CD1DB622EF0072A519 /* QDecimalElement.m in Sources */,
+				735CD3CF1DB622EF0072A519 /* QDynamicDataSection.m in Sources */,
+				735CD3301DB60C4C0072A519 /* NSObject+XLFormAdditions.m in Sources */,
+				735CD3F81DB623280072A519 /* BYQuickDialogVC.m in Sources */,
+				735CD3231DB60C4C0072A519 /* XLFormSliderCell.m in Sources */,
+				735CD3D01DB622EF0072A519 /* QElement+Appearance.m in Sources */,
+				735CD3BC1DB622EF0072A519 /* NSMutableArray+IMSExtensions.m in Sources */,
 				734BEEE41DAF97FB005532A1 /* BYExpandCell.m in Sources */,
+				735CD3CC1DB622EF0072A519 /* QDateTimeInlineElement.m in Sources */,
+				735CD3D41DB622EF0072A519 /* QEntryTableViewCell.m in Sources */,
 				734BEEF11DAF97FB005532A1 /* MJRefreshComponent.m in Sources */,
+				735CD32F1DB60C4C0072A519 /* NSExpression+XLFormAdditions.m in Sources */,
+				735CD31E1DB60C4C0072A519 /* XLFormInlineSelectorCell.m in Sources */,
 				734BEEED1DAF97FB005532A1 /* BYRefreshTopView.m in Sources */,
 				734BEEE91DAF97FB005532A1 /* BYGuevaraTransition.m in Sources */,
+				735CD3281DB60C4C0072A519 /* XLFormOptionsObject.m in Sources */,
 				734BEEF71DAF97FB005532A1 /* MJRefreshLegendFooter.m in Sources */,
 				734BEEEF1DAF97FB005532A1 /* BYTransition.m in Sources */,
 				734BEF061DAF97FB005532A1 /* UIImage+GIF.m in Sources */,
+				735CD3201DB60C4C0072A519 /* XLFormPickerCell.m in Sources */,
 				734BEEFB1DAF97FB005532A1 /* UIView+MJExtension.m in Sources */,
 				734BEF0D1DAF97FB005532A1 /* BYScrollTableViewVC.m in Sources */,
+				7327F7CD1DB771E6006F3AE4 /* BYQQTreeVC.m in Sources */,
+				735CD3371DB60C4C0072A519 /* XLFormTextView.m in Sources */,
 				734BEEEA1DAF97FB005532A1 /* UIViewController+BYGuevaraTransitionExtension.m in Sources */,
 				734BEE391DAF9760005532A1 /* AppDelegate.m in Sources */,
+				7327F7C41DB77167006F3AE4 /* BYMultistageVC.m in Sources */,
+				735CD3261DB60C4C0072A519 /* XLFormTextFieldCell.m in Sources */,
 				734BEF0A1DAF97FB005532A1 /* UIImageView+WebCache.m in Sources */,
+				735CD32C1DB60C4C0072A519 /* XLFormRowDescriptor.m in Sources */,
+				735CD3331DB60C4C0072A519 /* UIView+XLFormAdditions.m in Sources */,
+				735CD3241DB60C4C0072A519 /* XLFormStepCounterCell.m in Sources */,
+				7327F7B61DB75F32006F3AE4 /* MTreeView.m in Sources */,
+				7327F7C11DB76FC6006F3AE4 /* BYTreeTableViewController.m in Sources */,
+				735CD3D21DB622EF0072A519 /* QEmptyListElement.m in Sources */,
 				734BEEE51DAF97FB005532A1 /* BYExpandVC.m in Sources */,
 				734BEF051DAF97FB005532A1 /* UIButton+WebCache.m in Sources */,
+				735CD3C21DB622EF0072A519 /* QBadgeLabel.m in Sources */,
 				734BEF011DAF97FB005532A1 /* SDWebImageDownloader.m in Sources */,
 				734BEF081DAF97FB005532A1 /* UIImage+WebP.m in Sources */,
+				735CD3191DB60C4C0072A519 /* XLFormButtonCell.m in Sources */,
+				735CD3E51DB622EF0072A519 /* QSection.m in Sources */,
+				735CD3BE1DB622EF0072A519 /* QAppearance.m in Sources */,
 				734BEF071DAF97FB005532A1 /* UIImage+MultiFormat.m in Sources */,
+				735CD3271DB60C4C0072A519 /* XLFormTextViewCell.m in Sources */,
+				735CD3211DB60C4C0072A519 /* XLFormSegmentedCell.m in Sources */,
+				735CD3EE1DB622EF0072A519 /* QuickDialogController+Helpers.m in Sources */,
+				735CD3BB1DB622EF0072A519 /* DOAutocompleteTextField.m in Sources */,
 				734BEEEC1DAF97FB005532A1 /* BYContentVC.m in Sources */,
+				735CD32B1DB60C4C0072A519 /* XLFormDescriptor.m in Sources */,
+				735CD33F1DB60CF60072A519 /* BYFormVC.m in Sources */,
+				7327F7D41DB77ECD006F3AE4 /* BYQQTreeCell.m in Sources */,
+				735CD4001DB62B9F0072A519 /* BYQDDataBuilder.m in Sources */,
+				7327F7BA1DB76078006F3AE4 /* BYTreeTableViewListVC.m in Sources */,
+				735CD3C81DB622EF0072A519 /* QCountdownElement.m in Sources */,
 				734BEEEE1DAF97FB005532A1 /* BYRefreshTopViewVC.m in Sources */,
 				734BEEF81DAF97FB005532A1 /* MJRefreshLegendHeader.m in Sources */,
 				734BEEFF1DAF97FB005532A1 /* SDWebImageCompat.m in Sources */,
+				735CD3CA1DB622EF0072A519 /* QDateInlineTableViewCell.m in Sources */,
+				735CD3ED1DB622EF0072A519 /* QuickDialogController+Animations.m in Sources */,
+				735CD3EF1DB622EF0072A519 /* QuickDialogController+Loading.m in Sources */,
+				735CD3181DB60C4C0072A519 /* XLFormBaseCell.m in Sources */,
 				734BEE361DAF9760005532A1 /* main.m in Sources */,
 				734BEF001DAF97FB005532A1 /* SDWebImageDecoder.m in Sources */,
+				7327F7B51DB75F32006F3AE4 /* MTreeNode.m in Sources */,
+				735CD3D31DB622EF0072A519 /* QEntryElement.m in Sources */,
+				735CD32D1DB60C4C0072A519 /* XLFormSectionDescriptor.m in Sources */,
+				735CD3D51DB622EF0072A519 /* QFlatAppearance.m in Sources */,
+				735CD3E61DB622EF0072A519 /* QSegmentedElement.m in Sources */,
 				734BEEFE1DAF97FB005532A1 /* SDImageCache.m in Sources */,
+				735CD3F21DB622EF0072A519 /* QuickDialogDataSource.m in Sources */,
+				735CD3E31DB622EF0072A519 /* QRootElement+JsonBuilder.m in Sources */,
+				735CD3311DB60C4C0072A519 /* NSPredicate+XLFormAdditions.m in Sources */,
 				734BEEFC1DAF97FB005532A1 /* MKAnnotationView+WebCache.m in Sources */,
 				734BEEE71DAF97FB005532A1 /* BYGuevaraCell.m in Sources */,
+				735CD33B1DB60C4C0072A519 /* XLForm.m in Sources */,
 				734BEEF61DAF97FB005532A1 /* MJRefreshHeader.m in Sources */,
+				735CD32E1DB60C4C0072A519 /* NSArray+XLFormAdditions.m in Sources */,
+				735CD3D11DB622EF0072A519 /* QElement.m in Sources */,
 				734BEF0E1DAF97FB005532A1 /* BYWebViewController.m in Sources */,
 				734BEEDA1DAF97FB005532A1 /* BYAlarmClockPushLocal.m in Sources */,
+				735CD3351DB60C4C0072A519 /* XLFormRightImageButton.m in Sources */,
 				734BEEE81DAF97FB005532A1 /* BYGuevaraContentVC.m in Sources */,
+				735CD3C61DB622EF0072A519 /* QButtonElement.m in Sources */,
+				735CD3F01DB622EF0072A519 /* QuickDialogController+Navigation.m in Sources */,
+				735CD3221DB60C4C0072A519 /* XLFormSelectorCell.m in Sources */,
+				735CD3E11DB622EF0072A519 /* QRadioSection.m in Sources */,
+				735CD3F11DB622EF0072A519 /* QuickDialogController.m in Sources */,
 				734BEEFD1DAF97FB005532A1 /* NSData+ImageContentType.m in Sources */,
+				735CD3EC1DB622EF0072A519 /* QTextField.m in Sources */,
+				735CD3CB1DB622EF0072A519 /* QDateTimeElement.m in Sources */,
+				735CD3D81DB622EF0072A519 /* QImageElement.m in Sources */,
+				735CD3251DB60C4C0072A519 /* XLFormSwitchCell.m in Sources */,
+				735CD3EB1DB622EF0072A519 /* QTextElement.m in Sources */,
+				735CD3C31DB622EF0072A519 /* QBadgeTableCell.m in Sources */,
+				735CD3CE1DB622EF0072A519 /* QDecimalTableViewCell.m in Sources */,
+				735CD3E91DB622EF0072A519 /* QSortingSection.m in Sources */,
+				735CD3C91DB622EF0072A519 /* QDateEntryTableViewCell.m in Sources */,
+				735CD3291DB60C4C0072A519 /* XLFormOptionsViewController.m in Sources */,
+				735CD3D61DB622EF0072A519 /* QFloatElement.m in Sources */,
 				734BEF091DAF97FB005532A1 /* UIImageView+HighlightedWebCache.m in Sources */,
+				735CD31D1DB60C4C0072A519 /* XLFormImageCell.m in Sources */,
+				735CD3D91DB622EF0072A519 /* QImageTableViewCell.m in Sources */,
+				7327F7CA1DB771D1006F3AE4 /* BYFileTreeVC.m in Sources */,
 				734BEF0C1DAF97FB005532A1 /* BYScrollTableView.m in Sources */,
+				735CD3FB1DB6234E0072A519 /* BYFormListVC.m in Sources */,
+				735CD31C1DB60C4C0072A519 /* XLFormDatePickerCell.m in Sources */,
+				735CD3E21DB622EF0072A519 /* QRootBuilder.m in Sources */,
 				734BEEEB1DAF97FB005532A1 /* BYGuevaraVC.m in Sources */,
 				734BEEF31DAF97FB005532A1 /* MJRefreshFooter.m in Sources */,
 			);
@@ -841,6 +1623,10 @@
 				INFOPLIST_FILE = BYLayoutSet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYLayoutSet/BYFormView/quickdialog",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.berton.BYLayoutSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -855,6 +1641,10 @@
 				INFOPLIST_FILE = BYLayoutSet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYLayoutSet/BYFormView/quickdialog",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.berton.BYLayoutSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

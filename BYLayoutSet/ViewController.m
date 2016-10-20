@@ -15,10 +15,13 @@
 #import "BYDocumentListVC.h"
 #import "BYExpandVC.h"
 #import "BYScrollTableViewVC.h"
+#import "BYFormListVC.h"
+#import "BYTreeTableViewListVC.h"
 
-@interface ViewController ()<UIWebViewDelegate>
+
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *vcs;
-@property (nonatomic, strong) UIScrollView *scrollView;
+@property (nonatomic, strong) UITableView *tableView;
 @end
 
 @implementation ViewController
@@ -26,57 +29,108 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height) style:UITableViewStyleGrouped];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    [self.view addSubview:_tableView];
     
-    [[UIApplication sharedApplication] setApplicationIconBadgeNumber:0];
-    
-    self.scrollView = [[UIScrollView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    _scrollView.showsVerticalScrollIndicator = NO;
-    [self.view addSubview:_scrollView];
-    
-    self.vcs = @[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"cell展开视图", @"左右tableview"];
-    
-    for (int i = 0; i < _vcs.count; i++) {
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        btn.frame = CGRectMake(([UIScreen mainScreen].bounds.size.width - 300) / 2, 100 + i * 60, 300, 50);
-        [btn addTarget:self action:@selector(handleAction:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setTitle:_vcs[i] forState:UIControlStateNormal];
-        [btn setTitleColor:[UIColor brownColor] forState:UIControlStateNormal];
-        btn.titleLabel.numberOfLines = 0;
-        btn.titleLabel.textAlignment = NSTextAlignmentCenter;
-        btn.layer.cornerRadius = 5;
-        btn.layer.borderColor = [UIColor brownColor].CGColor;
-        btn.layer.borderWidth = 2;
-        btn.layer.masksToBounds = YES;
-        [self.scrollView addSubview:btn];
-    }
-    
-    [self.scrollView setContentSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 100 + self.vcs.count * 60 + 100)];
+    self.vcs = @[@[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"左右tableview", @"cell展开视图"], @[@"表单", @"TreeTableView"]];
 }
 
-- (void)handleAction:(UIButton *)sender {
-    if ([sender.titleLabel.text isEqualToString:_vcs[0]]) {
-        [self push];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[1]]) {
-        [self taobao];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[2]]) {
-        [self guevara];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[3]]) {
-        [self alarmCloclkAndPushLocal];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[4]]) {
-        [self dcocumentRead];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[5]]) {
-        [self cellExpand];
-    } else if ([sender.titleLabel.text isEqualToString:_vcs[6]]) {
-        [self tableviewToTableView];
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - tableview delegate & datasource
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (0 == section) {
+        return @"BYLayoutSet";
+    } else {
+        return @"Other Source";
     }
 }
 
-- (void)push {
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    if (0 == section) {
+        return 80;
+    } else {
+        return 40;
+    }
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return self.vcs.count;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [self.vcs[section] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *cellID = @"cellID";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
+    }
+    cell.textLabel.text = self.vcs[indexPath.section][indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (0 == indexPath.section) {
+        switch (indexPath.row) {
+            case 0:
+                [self webVC];
+                break;
+            case 1:
+                [self taoBao];
+                break;
+            case 2:
+                [self guevara];
+                break;
+            case 3:
+                [self alarmCloclkAndPushLocal];
+                break;
+            case 4:
+                [self dcocumentRead];
+                break;
+            case 5:
+                [self tableviewToTableView];
+                break;
+            case 6:
+                [self cellExpand];
+                break;
+                
+            default:
+                break;
+        }
+    } else {
+        switch (indexPath.row) {
+            case 0:
+                [self formView];
+                break;
+            case 1:
+                [self treeTableView];
+                break;
+                
+            default:
+                break;
+        }
+    }
+}
+
+#pragma mark - cell action
+
+- (void)webVC {
     BYWebViewController *vc = [[BYWebViewController alloc] initWithUrl:@"http://v.huya.com/lol/" BYVCTYPE:BYVCTYPE_DISMISS];
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:na animated:YES completion:nil];
 }
-- (void)taobao {
+- (void)taoBao {
     BYRefreshTopViewVC *vc = [[BYRefreshTopViewVC alloc] init];
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:na animated:YES completion:nil];
@@ -109,9 +163,16 @@
     [self presentViewController:na animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)formView {
+    BYFormListVC *vc = [[BYFormListVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
+
+- (void)treeTableView {
+    BYTreeTableViewListVC *vc = [[BYTreeTableViewListVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
 }
 
 @end
