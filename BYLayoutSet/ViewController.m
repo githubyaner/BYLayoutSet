@@ -17,6 +17,8 @@
 #import "BYScrollTableViewVC.h"
 #import "BYFormListVC.h"
 #import "BYTreeTableViewListVC.h"
+#import "BYMemorandumVC.h"
+#import "BYScanCodeVC.h"
 
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -34,7 +36,7 @@
     self.tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
-    self.vcs = @[@[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"左右tableview", @"cell展开视图"], @[@"表单", @"TreeTableView"]];
+    self.vcs = @[@[@"备忘录"], @[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"左右tableview", @"cell展开视图"], @[@"表单", @"TreeTableView", @"二维码扫描"]];
 }
 
 
@@ -47,6 +49,8 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if (0 == section) {
+        return @"Memorandum";
+    } else if (1 == section) {
         return @"BYLayoutSet";
     } else {
         return @"Other Source";
@@ -82,6 +86,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     if (0 == indexPath.section) {
+        [self memorandum];
+    } else if (1 == indexPath.section) {
         switch (indexPath.row) {
             case 0:
                 [self webVC];
@@ -116,6 +122,9 @@
             case 1:
                 [self treeTableView];
                 break;
+            case 2:
+                [self scanCode];
+                break;
                 
             default:
                 break;
@@ -124,6 +133,12 @@
 }
 
 #pragma mark - cell action
+
+- (void)memorandum {
+    BYMemorandumVC *vc = [[BYMemorandumVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
 
 - (void)webVC {
     BYWebViewController *vc = [[BYWebViewController alloc] initWithUrl:@"http://v.huya.com/lol/" BYVCTYPE:BYVCTYPE_DISMISS];
@@ -171,6 +186,12 @@
 
 - (void)treeTableView {
     BYTreeTableViewListVC *vc = [[BYTreeTableViewListVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
+
+- (void)scanCode {
+    BYScanCodeVC *vc = [[BYScanCodeVC alloc] init];
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:na animated:YES completion:nil];
 }

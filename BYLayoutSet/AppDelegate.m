@@ -31,8 +31,14 @@
 
 //创建一个本地推送
 - (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification NS_AVAILABLE_IOS(4_0) {
+    /**以Alert的形式展示*/
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:notification.alertTitle message:notification.alertBody delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
     [alert show];
+    /**对备忘录界面发送通知*/
+    //创建一个消息对象
+    NSNotification *notice = [NSNotification notificationWithName:@"Memorandum" object:nil userInfo:nil];
+    //发送消息
+    [[NSNotificationCenter defaultCenter] postNotification:notice];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

@@ -13,6 +13,7 @@
 
 #import "BYQDDataBuilder.h"
 
+
 @interface BYFormListVC ()
 
 @end
@@ -38,28 +39,26 @@
     XLFormDescriptor *form;
     XLFormSectionDescriptor *section;
     XLFormRowDescriptor *row;
+    
+    
     //设置表单
     form = [XLFormDescriptor formDescriptorWithTitle:@"表单"];
-    
     section = [XLFormSectionDescriptor formSectionWithTitle:@"XLForm"];//设置分区tite
     [form addFormSection:section];
-    
     // NativeEventFormViewController
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"XLForm" rowType:XLFormRowDescriptorTypeButton title:@"XLForm"];//设置单个cell
     row.action.viewControllerClass = [BYFormVC class];
     [section addFormRow:row];
     
     
+    
     section = [XLFormSectionDescriptor formSectionWithTitle:@"QuickDialog"];
     [form addFormSection:section];
-    
-    
     // TextFieldAndTextView
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"QuickDialog" rowType:XLFormRowDescriptorTypeButton title:@"QuickDialog"];
     row.action.formSegueIdentifier = @"BYQuickDialogVCSegue";
-    
     [section addFormRow:row];
-
+    
     self.form = form;
 }
 
@@ -89,5 +88,6 @@
         [self quickDialogVC];
     }
 }
+
 
 @end

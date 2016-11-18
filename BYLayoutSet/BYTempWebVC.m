@@ -45,14 +45,15 @@
     return self;
 }
 
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
     if (_wkWebView) {
         [_wkWebView stopLoading];
     }
     if (_webView) {
         [_webView stopLoading];
     }
+    [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
 - (void)viewDidLoad {

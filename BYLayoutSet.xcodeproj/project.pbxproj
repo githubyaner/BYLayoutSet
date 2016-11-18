@@ -81,6 +81,7 @@
 		734BEF0C1DAF97FB005532A1 /* BYScrollTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED31DAF97FB005532A1 /* BYScrollTableView.m */; };
 		734BEF0D1DAF97FB005532A1 /* BYScrollTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED51DAF97FB005532A1 /* BYScrollTableViewVC.m */; };
 		734BEF0E1DAF97FB005532A1 /* BYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 734BEED91DAF97FB005532A1 /* BYWebViewController.m */; };
+		7357FAE41DC06F5A00FCBD4F /* BYMemorandumData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365267A1DBDF77F00EB06EE /* BYMemorandumData.m */; };
 		735CD3171DB60C4C0072A519 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 735CD2C11DB60C4C0072A519 /* Info.plist */; };
 		735CD3181DB60C4C0072A519 /* XLFormBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2C51DB60C4C0072A519 /* XLFormBaseCell.m */; };
 		735CD3191DB60C4C0072A519 /* XLFormButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD2C71DB60C4C0072A519 /* XLFormButtonCell.m */; };
@@ -183,6 +184,19 @@
 		735CD3FB1DB6234E0072A519 /* BYFormListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3FA1DB6234E0072A519 /* BYFormListVC.m */; };
 		735CD3FD1DB627410072A519 /* libQuickDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735CD3FC1DB627410072A519 /* libQuickDialog.a */; };
 		735CD4001DB62B9F0072A519 /* BYQDDataBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 735CD3FF1DB62B9F0072A519 /* BYQDDataBuilder.m */; };
+		7365265B1DBDA89900EB06EE /* BYMemorandumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526591DBDA89900EB06EE /* BYMemorandumVC.m */; };
+		7365265F1DBDB21F00EB06EE /* BYMemorandumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365265E1DBDB21F00EB06EE /* BYMemorandumCell.m */; };
+		736526621DBDE27300EB06EE /* BYMemorandumTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526611DBDE27300EB06EE /* BYMemorandumTableView.m */; };
+		736526651DBDE7C800EB06EE /* BYMemorandumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526641DBDE7C800EB06EE /* BYMemorandumModel.m */; };
+		736526731DBDF71000EB06EE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526681DBDF71000EB06EE /* FMDatabase.m */; };
+		736526741DBDF71000EB06EE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365266A1DBDF71000EB06EE /* FMDatabaseAdditions.m */; };
+		736526751DBDF71000EB06EE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365266C1DBDF71000EB06EE /* FMDatabasePool.m */; };
+		736526761DBDF71000EB06EE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7365266E1DBDF71000EB06EE /* FMDatabaseQueue.m */; };
+		736526771DBDF71000EB06EE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526711DBDF71000EB06EE /* FMResultSet.m */; };
+		736526781DBDF71000EB06EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 736526721DBDF71000EB06EE /* Info.plist */; };
+		7365267E1DBDFC1000EB06EE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7365267D1DBDFC1000EB06EE /* libsqlite3.0.tbd */; };
+		736526811DBE1BB200EB06EE /* BYMemorandumDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 736526801DBE1BB200EB06EE /* BYMemorandumDetailVC.m */; };
+		739787B01DDEE56600FD5770 /* BYScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 739787AF1DDEE56600FD5770 /* BYScanCodeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -552,6 +566,33 @@
 		735CD3FC1DB627410072A519 /* libQuickDialog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libQuickDialog.a; sourceTree = "<group>"; };
 		735CD3FE1DB62B9F0072A519 /* BYQDDataBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYQDDataBuilder.h; sourceTree = "<group>"; };
 		735CD3FF1DB62B9F0072A519 /* BYQDDataBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYQDDataBuilder.m; sourceTree = "<group>"; };
+		736526581DBDA89900EB06EE /* BYMemorandumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumVC.h; sourceTree = "<group>"; };
+		736526591DBDA89900EB06EE /* BYMemorandumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumVC.m; sourceTree = "<group>"; };
+		7365265D1DBDB21F00EB06EE /* BYMemorandumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumCell.h; sourceTree = "<group>"; };
+		7365265E1DBDB21F00EB06EE /* BYMemorandumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumCell.m; sourceTree = "<group>"; };
+		736526601DBDE27300EB06EE /* BYMemorandumTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumTableView.h; sourceTree = "<group>"; };
+		736526611DBDE27300EB06EE /* BYMemorandumTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumTableView.m; sourceTree = "<group>"; };
+		736526631DBDE7C800EB06EE /* BYMemorandumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumModel.h; sourceTree = "<group>"; };
+		736526641DBDE7C800EB06EE /* BYMemorandumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumModel.m; sourceTree = "<group>"; };
+		736526671DBDF71000EB06EE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		736526681DBDF71000EB06EE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		736526691DBDF71000EB06EE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		7365266A1DBDF71000EB06EE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		7365266B1DBDF71000EB06EE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		7365266C1DBDF71000EB06EE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		7365266D1DBDF71000EB06EE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		7365266E1DBDF71000EB06EE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		7365266F1DBDF71000EB06EE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		736526701DBDF71000EB06EE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		736526711DBDF71000EB06EE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		736526721DBDF71000EB06EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736526791DBDF77F00EB06EE /* BYMemorandumData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumData.h; sourceTree = "<group>"; };
+		7365267A1DBDF77F00EB06EE /* BYMemorandumData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumData.m; sourceTree = "<group>"; };
+		7365267D1DBDFC1000EB06EE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		7365267F1DBE1BB200EB06EE /* BYMemorandumDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYMemorandumDetailVC.h; sourceTree = "<group>"; };
+		736526801DBE1BB200EB06EE /* BYMemorandumDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYMemorandumDetailVC.m; sourceTree = "<group>"; };
+		739787AE1DDEE56600FD5770 /* BYScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYScanCodeVC.h; sourceTree = "<group>"; };
+		739787AF1DDEE56600FD5770 /* BYScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYScanCodeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +600,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7365267E1DBDFC1000EB06EE /* libsqlite3.0.tbd in Frameworks */,
 				735CD3FD1DB627410072A519 /* libQuickDialog.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,6 +652,7 @@
 				734BEE501DAF9761005532A1 /* BYLayoutSetTests */,
 				734BEE5B1DAF9761005532A1 /* BYLayoutSetUITests */,
 				734BEE321DAF9760005532A1 /* Products */,
+				7365267C1DBDFC0F00EB06EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -632,15 +675,17 @@
 				734BEE3B1DAF9760005532A1 /* ViewController.m */,
 				7327F7BC1DB76A5F006F3AE4 /* BYTempWebVC.h */,
 				7327F7BD1DB76A5F006F3AE4 /* BYTempWebVC.m */,
+				736526571DBDA87600EB06EE /* BYMemorandum */,
 				734BEED71DAF97FB005532A1 /* BYWebView */,
 				734BEE8D1DAF97FB005532A1 /* BYRefreshTopView */,
 				734BEE811DAF97FB005532A1 /* BYGuevaraEffect */,
 				734BEE6A1DAF97FB005532A1 /* BYAlarmClockPushLocal */,
 				734BEE6D1DAF97FB005532A1 /* BYDocumentReader */,
-				734BEE7A1DAF97FB005532A1 /* BYExpandView */,
 				734BEED11DAF97FB005532A1 /* BYScrollTableView */,
+				734BEE7A1DAF97FB005532A1 /* BYExpandView */,
 				734BEE801DAF97FB005532A1 /* BYFormView */,
 				734BEED61DAF97FB005532A1 /* BYTreeTableView */,
+				739787AD1DDEE54A00FD5770 /* BYScanCodeVC */,
 				734BEE3D1DAF9760005532A1 /* Main.storyboard */,
 				734BEE431DAF9760005532A1 /* Assets.xcassets */,
 				734BEE451DAF9760005532A1 /* LaunchScreen.storyboard */,
@@ -1167,6 +1212,63 @@
 			path = quickdialog;
 			sourceTree = "<group>";
 		};
+		736526571DBDA87600EB06EE /* BYMemorandum */ = {
+			isa = PBXGroup;
+			children = (
+				736526581DBDA89900EB06EE /* BYMemorandumVC.h */,
+				736526591DBDA89900EB06EE /* BYMemorandumVC.m */,
+				736526601DBDE27300EB06EE /* BYMemorandumTableView.h */,
+				736526611DBDE27300EB06EE /* BYMemorandumTableView.m */,
+				7365265D1DBDB21F00EB06EE /* BYMemorandumCell.h */,
+				7365265E1DBDB21F00EB06EE /* BYMemorandumCell.m */,
+				736526631DBDE7C800EB06EE /* BYMemorandumModel.h */,
+				736526641DBDE7C800EB06EE /* BYMemorandumModel.m */,
+				736526791DBDF77F00EB06EE /* BYMemorandumData.h */,
+				7365267A1DBDF77F00EB06EE /* BYMemorandumData.m */,
+				7365267F1DBE1BB200EB06EE /* BYMemorandumDetailVC.h */,
+				736526801DBE1BB200EB06EE /* BYMemorandumDetailVC.m */,
+				736526661DBDF71000EB06EE /* fmdb */,
+			);
+			path = BYMemorandum;
+			sourceTree = "<group>";
+		};
+		736526661DBDF71000EB06EE /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				736526671DBDF71000EB06EE /* FMDatabase.h */,
+				736526681DBDF71000EB06EE /* FMDatabase.m */,
+				736526691DBDF71000EB06EE /* FMDatabaseAdditions.h */,
+				7365266A1DBDF71000EB06EE /* FMDatabaseAdditions.m */,
+				7365266B1DBDF71000EB06EE /* FMDatabasePool.h */,
+				7365266C1DBDF71000EB06EE /* FMDatabasePool.m */,
+				7365266D1DBDF71000EB06EE /* FMDatabaseQueue.h */,
+				7365266E1DBDF71000EB06EE /* FMDatabaseQueue.m */,
+				7365266F1DBDF71000EB06EE /* FMDB.h */,
+				736526701DBDF71000EB06EE /* FMResultSet.h */,
+				736526711DBDF71000EB06EE /* FMResultSet.m */,
+				736526721DBDF71000EB06EE /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		7365267C1DBDFC0F00EB06EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7365267D1DBDFC1000EB06EE /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		739787AD1DDEE54A00FD5770 /* BYScanCodeVC */ = {
+			isa = PBXGroup;
+			children = (
+				739787AE1DDEE56600FD5770 /* BYScanCodeVC.h */,
+				739787AF1DDEE56600FD5770 /* BYScanCodeVC.m */,
+			);
+			name = BYScanCodeVC;
+			path = BYLayoutSet/BYScanCodeVC;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1284,6 +1386,7 @@
 				735CD33C1DB60C4C0072A519 /* XLForm.bundle in Resources */,
 				7327F7B31DB75F32006F3AE4 /* Info.plist in Resources */,
 				734BEE441DAF9760005532A1 /* Assets.xcassets in Resources */,
+				736526781DBDF71000EB06EE /* Info.plist in Resources */,
 				734BEEDF1DAF97FB005532A1 /* doc文件.doc in Resources */,
 				734BEEE61DAF97FB005532A1 /* BYExpandVC.xib in Resources */,
 				734BEEE01DAF97FB005532A1 /* html文件.html in Resources */,
@@ -1319,20 +1422,24 @@
 				735CD3C41DB622EF0072A519 /* QBindingEvaluator.m in Sources */,
 				735CD3E01DB622EF0072A519 /* QRadioItemElement.m in Sources */,
 				734BEEF91DAF97FB005532A1 /* UIScrollView+MJExtension.m in Sources */,
+				7365265F1DBDB21F00EB06EE /* BYMemorandumCell.m in Sources */,
 				735CD31B1DB60C4C0072A519 /* XLFormDateCell.m in Sources */,
 				735CD3DA1DB622EF0072A519 /* QLabelElement.m in Sources */,
+				736526771DBDF71000EB06EE /* FMResultSet.m in Sources */,
 				735CD31F1DB60C4C0072A519 /* XLFormLeftRightSelectorCell.m in Sources */,
 				735CD3341DB60C4C0072A519 /* XLFormRightDetailCell.m in Sources */,
 				735CD3DF1DB622EF0072A519 /* QRadioElement.m in Sources */,
 				734BEEDD1DAF97FB005532A1 /* BYDocumentReader.m in Sources */,
 				735CD3C71DB622EF0072A519 /* QClassicAppearance.m in Sources */,
 				734BEF031DAF97FB005532A1 /* SDWebImageManager.m in Sources */,
+				739787B01DDEE56600FD5770 /* BYScanCodeVC.m in Sources */,
 				735CD3C51DB622EF0072A519 /* QBooleanElement.m in Sources */,
 				735CD3391DB60C4C0072A519 /* XLFormValidationStatus.m in Sources */,
 				735CD3DC1DB622EF0072A519 /* QMultilineElement.m in Sources */,
 				735CD3381DB60C4C0072A519 /* XLFormRegexValidator.m in Sources */,
 				735CD3C11DB622EF0072A519 /* QBadgeElement.m in Sources */,
 				734BEF041DAF97FB005532A1 /* SDWebImagePrefetcher.m in Sources */,
+				736526811DBE1BB200EB06EE /* BYMemorandumDetailVC.m in Sources */,
 				735CD3361DB60C4C0072A519 /* XLFormRowNavigationAccessoryView.m in Sources */,
 				735CD3DB1DB622EF0072A519 /* QLoadingElement.m in Sources */,
 				735CD3F51DB622EF0072A519 /* QuickDialogWebController.m in Sources */,
@@ -1350,16 +1457,20 @@
 				735CD3DE1DB622EF0072A519 /* QProgressElement.m in Sources */,
 				735CD3BD1DB622EF0072A519 /* NSMutableArray+MoveObject.m in Sources */,
 				735CD3D71DB622EF0072A519 /* QFloatTableViewCell.m in Sources */,
+				736526621DBDE27300EB06EE /* BYMemorandumTableView.m in Sources */,
 				735CD3F31DB622EF0072A519 /* QuickDialogTableDelegate.m in Sources */,
 				735CD3E71DB622EF0072A519 /* QSelectItemElement.m in Sources */,
 				734BEEF51DAF97FB005532A1 /* MJRefreshGifHeader.m in Sources */,
 				735CD33A1DB60C4C0072A519 /* XLFormValidator.m in Sources */,
+				736526741DBDF71000EB06EE /* FMDatabaseAdditions.m in Sources */,
 				734BEF021DAF97FB005532A1 /* SDWebImageDownloaderOperation.m in Sources */,
+				736526651DBDE7C800EB06EE /* BYMemorandumModel.m in Sources */,
 				734BEE421DAF9760005532A1 /* BYLayoutSet.xcdatamodeld in Sources */,
 				734BEEDB1DAF97FB005532A1 /* BYDocumentListVC.m in Sources */,
 				735CD3DD1DB622EF0072A519 /* QMultilineTextViewController.m in Sources */,
 				735CD3E41DB622EF0072A519 /* QRootElement.m in Sources */,
 				734BEEF21DAF97FB005532A1 /* MJRefreshConst.m in Sources */,
+				7365265B1DBDA89900EB06EE /* BYMemorandumVC.m in Sources */,
 				7327F7B41DB75F32006F3AE4 /* MTreeNode+ExpandNode.m in Sources */,
 				735CD3CD1DB622EF0072A519 /* QDecimalElement.m in Sources */,
 				735CD3CF1DB622EF0072A519 /* QDynamicDataSection.m in Sources */,
@@ -1449,6 +1560,8 @@
 				735CD3221DB60C4C0072A519 /* XLFormSelectorCell.m in Sources */,
 				735CD3E11DB622EF0072A519 /* QRadioSection.m in Sources */,
 				735CD3F11DB622EF0072A519 /* QuickDialogController.m in Sources */,
+				736526761DBDF71000EB06EE /* FMDatabaseQueue.m in Sources */,
+				7357FAE41DC06F5A00FCBD4F /* BYMemorandumData.m in Sources */,
 				734BEEFD1DAF97FB005532A1 /* NSData+ImageContentType.m in Sources */,
 				735CD3EC1DB622EF0072A519 /* QTextField.m in Sources */,
 				735CD3CB1DB622EF0072A519 /* QDateTimeElement.m in Sources */,
@@ -1457,10 +1570,12 @@
 				735CD3EB1DB622EF0072A519 /* QTextElement.m in Sources */,
 				735CD3C31DB622EF0072A519 /* QBadgeTableCell.m in Sources */,
 				735CD3CE1DB622EF0072A519 /* QDecimalTableViewCell.m in Sources */,
+				736526731DBDF71000EB06EE /* FMDatabase.m in Sources */,
 				735CD3E91DB622EF0072A519 /* QSortingSection.m in Sources */,
 				735CD3C91DB622EF0072A519 /* QDateEntryTableViewCell.m in Sources */,
 				735CD3291DB60C4C0072A519 /* XLFormOptionsViewController.m in Sources */,
 				735CD3D61DB622EF0072A519 /* QFloatElement.m in Sources */,
+				736526751DBDF71000EB06EE /* FMDatabasePool.m in Sources */,
 				734BEF091DAF97FB005532A1 /* UIImageView+HighlightedWebCache.m in Sources */,
 				735CD31D1DB60C4C0072A519 /* XLFormImageCell.m in Sources */,
 				735CD3D91DB622EF0072A519 /* QImageTableViewCell.m in Sources */,
@@ -1627,6 +1742,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BYLayoutSet/BYFormView/quickdialog",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.berton.BYLayoutSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1645,6 +1761,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/BYLayoutSet/BYFormView/quickdialog",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.berton.BYLayoutSet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
