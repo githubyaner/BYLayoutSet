@@ -15,6 +15,7 @@
 @property (nonatomic, strong) BYMemorandumModel *sendModel;
 @property (nonatomic, assign) BOOL disabled;
 @property (nonatomic, assign) BOOL dateHidden;
+@property (nonatomic, assign) BOOL isAdd;
 @property (nonatomic, strong) XLFormRowDescriptor *titleRow;
 @property (nonatomic, strong) XLFormRowDescriptor *noteRow;
 @property (nonatomic, strong) XLFormRowDescriptor *dateRow;
@@ -33,9 +34,11 @@
         if (type == BYMemorandumDetailTypeAdd) {
             self.title = @"新增备忘录";
             self.sendModel = [BYMemorandumModel memorandumModel];
+            self.isAdd = YES;
         } else {
             self.title = @"修改备忘录";
             self.sendModel = [BYMemorandumModel modelWithModel:model];
+            self.isAdd = NO;
         }
         self.disabled = self.sendModel.isFinish;
         self.dateHidden = !self.sendModel.isClook;
@@ -60,6 +63,11 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (void)save {
+    if ([self isBlankString:_sendModel.titleText]) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"BYLayoutSet" message:@"请您填写标题!" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+        return;
+    }
     //保存
     BYMemorandumData *data = [[BYMemorandumData alloc] init];
     if (self.type == BYMemorandumDetailTypeAdd) {
@@ -133,6 +141,7 @@
     
     row = [XLFormRowDescriptor formRowDescriptorWithTag:@"isFinish" rowType:XLFormRowDescriptorTypeBooleanSwitch title:@"是否完成"];
     row.value = @(self.sendModel.isFinish);
+    row.hidden = @(self.isAdd);
     [section addFormRow:row];
     
     self.form = form;

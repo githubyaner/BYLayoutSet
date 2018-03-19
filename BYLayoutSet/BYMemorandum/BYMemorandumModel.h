@@ -13,6 +13,7 @@
 @interface BYMemorandumModel : NSObject
 + (BYMemorandumModel *)memorandumModel;//初始化一个model
 + (BYMemorandumModel *)modelWithModel:(BYMemorandumModel*)model;//根据传来的model,生成一个新的model(赋值并开辟空间)
++ (void)deleteLocalNotificationWithModel:(BYMemorandumModel *)model;//删除cell的时候删除通知
 - (void)updateData;//更新计算数据
 
 /**存储数据库数据*/

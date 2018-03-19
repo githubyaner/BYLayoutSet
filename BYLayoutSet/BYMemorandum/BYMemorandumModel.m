@@ -44,6 +44,16 @@
     return sendModel;
 }
 
++ (void)deleteLocalNotificationWithModel:(BYMemorandumModel *)model {
+    NSArray *locArr = [[UIApplication sharedApplication] scheduledLocalNotifications];
+    for (UILocalNotification *localNotification in locArr) {
+        NSDictionary *userInfo = localNotification.userInfo;
+        if ([model.creatDate isEqualToString:userInfo[@"key"]]) {
+            [[UIApplication sharedApplication] cancelLocalNotification:localNotification];
+        }
+    }
+}
+
 - (void)updateData {
     if ([self isBlankString:self.clookDate]) {
         self.isClook = NO;

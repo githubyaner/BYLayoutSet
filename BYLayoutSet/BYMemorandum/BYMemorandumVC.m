@@ -169,7 +169,8 @@
     UITableViewRowAction *deleteAction = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDefault title:@"删除" handler:^(UITableViewRowAction * _Nonnull action, NSIndexPath * _Nonnull indexPath) {
         __strong typeof(weakSelf) strongSelf = weakSelf;
         BYMemorandumModel *model = strongSelf.dataSource[indexPath.row];
-        [strongSelf.data deleteData:model];
+        [BYMemorandumModel deleteLocalNotificationWithModel:model];//删除通知
+        [strongSelf.data deleteData:model];//删除数据
         
         [strongSelf.dataSource removeObjectAtIndex:indexPath.row];
         [strongSelf.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationRight];

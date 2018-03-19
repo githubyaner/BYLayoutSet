@@ -73,7 +73,7 @@
     } else {
         self.webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, BYWEBVIEW_WIDTH, BYWEBVIEW_HEIGHT)];
         _webView.delegate = self;
-        _wkWebView.scrollView.delegate = self;
+        _webView.scrollView.delegate = self;
         [self.view addSubview:_webView];
         //加载网页
         [_webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.url]]];

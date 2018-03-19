@@ -19,6 +19,9 @@
 #import "BYTreeTableViewListVC.h"
 #import "BYMemorandumVC.h"
 #import "BYScanCodeVC.h"
+#import "BYCalendarVC.h"
+#import "BYBluetoothVC.h"
+#import "BYGuideListVC.h"
 
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -36,7 +39,26 @@
     self.tableView.dataSource = self;
     [self.view addSubview:_tableView];
     
-    self.vcs = @[@[@"备忘录"], @[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"左右tableview", @"cell展开视图"], @[@"表单", @"TreeTableView", @"二维码扫描"]];
+    self.vcs = @[@[@"备忘录"], @[@"带进度条浏览器+今日头条详情", @"淘宝效果", @"格拉瓦电影转场效果", @"Timer+闹钟+定时推送", @"文档阅读器", @"左右tableview", @"cell展开视图", @"二维码扫描"], @[@"表单", @"TreeTableView", @"日历", @"蓝牙", @"界面指引"]];
+}
++ (BOOL)isBetweenTheStartTime:(NSString *)startTime endTime:(NSString *)endTime andCurrentTime:(NSString *)currentTime {
+    if (startTime == nil || endTime == nil) {
+        return NO;
+    }
+    NSInteger isTime1 = [startTime compare:currentTime];
+    NSInteger isTime2 = [endTime compare:currentTime];
+    //1为前者大于后者,-1为前者小于后者
+    if (isTime1 == -1 && isTime2 == 1) {
+        return YES;
+    } else if (isTime1 == 0 && isTime2 == 1) {
+        return YES;
+    } else if (isTime1 == 0 && isTime2 == 0) {
+        return YES;
+    } else if (isTime1 == -1 && isTime2 == 0) {
+        return YES;
+    }
+    //判断点击的时间与开始时间和结束时间相同的情况.三者都是同一天.
+    return NO;
 }
 
 
@@ -110,6 +132,9 @@
             case 6:
                 [self cellExpand];
                 break;
+            case 7:
+                [self scanCode];
+                break;
                 
             default:
                 break;
@@ -123,7 +148,13 @@
                 [self treeTableView];
                 break;
             case 2:
-                [self scanCode];
+                [self calendar];
+                break;
+            case 3:
+                [self bluetooth];
+                break;
+            case 4:
+                [self guideView];
                 break;
                 
             default:
@@ -171,7 +202,15 @@
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:na animated:YES completion:nil];
 }
-
++ (NSString*)urlstring:(NSString*)strurl {
+    NSURL *url = [NSURL URLWithString:strurl];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    
+    NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
+    NSString *retStr = [[NSString alloc] initWithData:data encoding:enc];
+    //NSLog(@" html = %@",retStr);
+     return retStr;
+}
 - (void)tableviewToTableView {
     BYScrollTableViewVC *vc = [[BYScrollTableViewVC alloc] init];
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
@@ -192,6 +231,24 @@
 
 - (void)scanCode {
     BYScanCodeVC *vc = [[BYScanCodeVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
+
+- (void)calendar {
+    BYCalendarVC *vc = [[BYCalendarVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
+
+- (void)bluetooth {
+    BYBluetoothVC *vc = [[BYBluetoothVC alloc] init];
+    UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:na animated:YES completion:nil];
+}
+
+- (void)guideView {
+    BYGuideListVC *vc = [[BYGuideListVC alloc] init];
     UINavigationController *na = [[UINavigationController alloc] initWithRootViewController:vc];
     [self presentViewController:na animated:YES completion:nil];
 }
